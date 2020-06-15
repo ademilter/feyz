@@ -1,0 +1,13 @@
+.nav {
+  margin-top: 2rem;
+}
+
+.news {
+  margin-top: 1rem;
+}
+
+.iframe {
+  display: block;
+  width: 100%;
+  min-height: 2600px;
+}

@@ -1,0 +1,8 @@
+.pagination {
+  font-size: 3rem;
+  font-weight: 600;
+
+  a {
+    padding: 0.5rem;
+  }
+}

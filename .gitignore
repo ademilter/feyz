@@ -1,0 +1,8 @@
+.next
+node_modules
+.idea
+public/ui
+out
+public/sw.js
+public/workbox-*
+.env

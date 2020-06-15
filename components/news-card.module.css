@@ -1,0 +1,64 @@
+.card {
+  border-top: 2px solid #eee;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+
+  &:last-child {
+    border-bottom: 2px solid #eee;
+  }
+}
+
+.withPhoto {
+  @media (--t) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.image {
+  @media (--t) {
+    order: 2;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    @media (--t) {
+      max-height: 350px;
+    }
+  }
+}
+
+.header {
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+}
+
+.summary {
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.92rem;
+}
+
+.author {
+}
+
+.datetime {
+}
+
+.quote {
+  font-size: 3rem;
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
