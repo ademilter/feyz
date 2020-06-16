@@ -4,26 +4,20 @@
   "scripts": {
     "dev": "next",
     "build": "NODE_ENV=production next build && next export",
-    "start": "next start",
-    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
+    "start": "next start"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "luxon": "^1.24.1",
     "next": "^9.4.4",
     "next-compose-plugins": "^2.2.0",
-    "next-img": "^0.2.0",
     "next-pwa": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@svgr/cli": "^5.4.0",
-    "css-loader": "^3.5.3",
     "postcss-custom-media": "^7.0.8",
-    "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.1",
-    "prettier": "^2.0.5",
-    "style-loader": "^1.2.1"
+    "prettier": "^2.0.5"
   }
 }
