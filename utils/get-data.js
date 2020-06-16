@@ -1,4 +1,4 @@
-import { PATHS, PER_PAGE, URL } from '../constants'
+import { PATHS } from '../constants'
 import { sleep } from './helper'
 
 export default async function getData(activePage = 1, tag) {
@@ -6,7 +6,7 @@ export default async function getData(activePage = 1, tag) {
 
   // TODO: offset eklenecek yoksa 99'dan sonra patlar
   async function allData(pageOffset) {
-    const response = await fetch(encodeURI(URL))
+    const response = await fetch(encodeURI(process.env.API_URL))
     const { records, offset } = await response.json()
 
     let filteredData = records.filter((row) => {
@@ -33,7 +33,8 @@ export default async function getData(activePage = 1, tag) {
   }
 
   return {
+    allData: filteredData,
     totalData: filteredData.length,
-    data: [...filteredData].splice((activePage - 1) * PER_PAGE, PER_PAGE)
+    data: [...filteredData].splice((activePage - 1) * process.env.PER_PAGE, process.env.PER_PAGE)
   }
 }

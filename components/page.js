@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import styles from './page.module.css'
 
@@ -9,7 +8,7 @@ import News from './news'
 import Layout from './layout'
 import Pagination from './pagination'
 
-function Page({ pathname, data, totalData }) {
+function Page({ pathname, data, totalData, tag }) {
   return (
     <Layout>
       <Title />
@@ -17,12 +16,12 @@ function Page({ pathname, data, totalData }) {
 
       <News className={styles.news} data={data} totalData={totalData} />
 
-      {totalData && (
-        <Pagination className={styles.pagination} totalData={totalData}>
-          <Link href="/">
-            <a>1</a>
-          </Link>
-        </Pagination>
+      {totalData && totalData > 1 && (
+        <Pagination
+          className={styles.pagination}
+          totalData={totalData}
+          tag={tag}
+        />
       )}
     </Layout>
   )

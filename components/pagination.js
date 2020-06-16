@@ -1,25 +1,39 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import cn from 'classnames'
-
-import styles from './pagination.module.css'
-
-import { PER_PAGE } from '../constants'
 import Link from 'next/link'
 
-function News({ totalData, children, className }) {
-  const PAGES = Array(Math.ceil(totalData / PER_PAGE))
-    .fill()
-    .map((_, i) => i + 1)
-  PAGES.shift()
+import styles from './pagination.module.css'
+import { pageFill } from '../utils/helper'
+
+function News({ totalData, className, tag }) {
+  const PAGES = pageFill(totalData)
 
   return (
     <div className={cn(styles.pagination, className)}>
-      {children}
-      {PAGES.map((page) => (
-        <Link key={page} href="/[page]" as={`/${page}`}>
-          <a>{page}</a>
+      {tag ? (
+        <Link href={`/tag/[${tag}]`} as={`/tag/${tag}`}>
+          <a>1</a>
         </Link>
-      ))}
+      ) : (
+        <Link href="/">
+          <a>1</a>
+        </Link>
+      )}
+      {PAGES.map((page) =>
+        tag ? (
+          <Link
+            key={page}
+            href={`/tag/[${tag}]/[page]`}
+            as={`/tag/${tag}/${page}`}
+          >
+            <a>{page}</a>
+          </Link>
+        ) : (
+          <Link key={page} href="/[page]" as={`/${page}`}>
+            <a>{page}</a>
+          </Link>
+        )
+      )}
     </div>
   )
 }
