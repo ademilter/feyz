@@ -2,8 +2,8 @@ import React from 'react'
 import { useRouter } from 'next/router'
 
 import Page from 'components/page'
-import getData from '../utils/get-data'
 import { pageFill } from '../utils/helper'
+import getData from '../utils/get-data'
 
 function HomeOtherPage({ data, totalData }) {
   const route = useRouter()

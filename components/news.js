@@ -15,11 +15,13 @@ function News({ data, totalData, className }) {
         ))}
       </div>
 
-      <Pagination className={styles.pagination} totalData={totalData}>
-        <Link href="/">
-          <a>1</a>
-        </Link>
-      </Pagination>
+      {totalData && (
+        <Pagination className={styles.pagination} totalData={totalData}>
+          <Link href="/">
+            <a>1</a>
+          </Link>
+        </Pagination>
+      )}
     </>
   )
 }

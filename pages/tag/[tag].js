@@ -5,10 +5,10 @@ import { PATHS } from 'constants/index'
 import Page from '../../components/page'
 import getData from '../../utils/get-data'
 
-function TagPage({ data, totalData }) {
+function TagPage({ data }) {
   const route = useRouter()
 
-  return <Page pathname={route.pathname} data={data} totalData={totalData} />
+  return <Page pathname={route.pathname} data={data} />
 }
 
 export async function getStaticPaths() {
@@ -21,15 +21,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const { data } = await getData()
-
-  const filterData = data.filter((row) => {
-    const findPath = PATHS.find((path) => path.slug === params.tag)
-    return row.fields.tags.find((tag) => tag === findPath.title)
-  })
+  const { data } = await getData(1, params.tag)
 
   return {
-    props: { data: filterData, totalData: filterData.length }
+    props: { data }
   }
 }
 export default TagPage

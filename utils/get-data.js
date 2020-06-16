@@ -1,23 +1,40 @@
-import { PER_PAGE, URL } from '../constants'
+import { PATHS, PER_PAGE, URL } from '../constants'
 import { sleep } from './helper'
 
-async function allData() {
-  const response = await fetch(encodeURI(URL))
-  const { records, offset } = await response.json()
+export default async function getData(activePage = 1, tag) {
+  let _data = []
 
-  if (!offset) {
-    return records.filter((row) => row.fields.createdDate && row.fields.public)
-  } else {
-    await sleep(300)
-    await allData(offset)
+  // TODO: offset eklenecek yoksa 99'dan sonra patlar
+  async function allData(pageOffset) {
+    const response = await fetch(encodeURI(URL))
+    const { records, offset } = await response.json()
+
+    let filteredData = records.filter(
+      (row) => row.fields.createdDate && row.fields.public
+    )
+
+    _data = [..._data, ...filteredData]
+
+    if (offset) {
+      await sleep(300)
+      await allData(offset)
+    }
   }
-}
 
-// TODO: singleton yaparsak bir defa çekeriz
-export default async function getData(activePage = 1) {
-  const data = await allData()
+  await allData()
+
+  let filteredData = [..._data]
+
+  console.log(tag)
+  if (tag) {
+    const path = PATHS.find((path) => path.slug === tag)
+    filteredData = filteredData.filter((row) => {
+      return row.fields.tags.find((tag) => tag === path.title)
+    })
+  }
+
   return {
-    totalData: data.length,
-    data: data.splice((activePage - 1) * PER_PAGE, PER_PAGE)
+    totalData: filteredData.length,
+    data: [...filteredData].splice((activePage - 1) * PER_PAGE, PER_PAGE)
   }
 }

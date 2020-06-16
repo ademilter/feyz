@@ -1,4 +1,4 @@
-export const PER_PAGE = 8
+export const PER_PAGE = 10
 
 export const URL = [
   'https://api.airtable.com/v0/appeqvrnUnbvHVDmH/content',
