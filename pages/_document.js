@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <meta name="description" content="A description of the page" />
+          <meta name="description" content="Kafa açan içerikler" />
 
           <meta property="og:url" content="https://feyz.li" />
           <meta property="og:type" content="website" />
