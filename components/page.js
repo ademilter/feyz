@@ -8,7 +8,7 @@ import News from './news'
 import Layout from './layout'
 import Pagination from './pagination'
 
-function Page({ pathname, data, totalData, tag }) {
+function Page({ pathname, data, totalData = 1, tag }) {
   return (
     <Layout>
       <Title />
@@ -16,7 +16,7 @@ function Page({ pathname, data, totalData, tag }) {
 
       <News className={styles.news} data={data} totalData={totalData} />
 
-      {totalData && totalData > 1 && (
+      {totalData > process.env.PER_PAGE && (
         <Pagination
           className={styles.pagination}
           totalData={totalData}
