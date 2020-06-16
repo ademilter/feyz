@@ -11,3 +11,7 @@
   width: 100%;
   min-height: 2600px;
 }
+
+.pagination {
+  margin-top: 2rem;
+}
