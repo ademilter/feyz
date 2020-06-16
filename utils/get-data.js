@@ -9,9 +9,9 @@ export default async function getData(activePage = 1, tag) {
     const response = await fetch(encodeURI(URL))
     const { records, offset } = await response.json()
 
-    let filteredData = records.filter(
-      (row) => row.fields.createdDate && row.fields.public
-    )
+    let filteredData = records.filter((row) => {
+      return row.fields.createdDate && row.fields.public
+    })
 
     _data = [..._data, ...filteredData]
 
@@ -25,7 +25,6 @@ export default async function getData(activePage = 1, tag) {
 
   let filteredData = [..._data]
 
-  console.log(tag)
   if (tag) {
     const path = PATHS.find((path) => path.slug === tag)
     filteredData = filteredData.filter((row) => {
