@@ -1,3 +1,9 @@
-### Feyz
+## Feyz.li
 
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" width="130" />](https://www.patreon.com/ademilter)
+> Kafa açan içerikler
+
+### Yapı
+Airtable ile girdiğim içerikleri NextJS ile statik dosya oluşturup Vercel ile serve ediyorum.
+
+### İçerik
+https://airtable.com/shrTIyJJFloiJ7Vwv/tblyXzwQCAWZlbl05
