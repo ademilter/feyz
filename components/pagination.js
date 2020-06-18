@@ -14,11 +14,11 @@ function News({ totalData, className, tag }) {
     <div className={cn(styles.pagination, className)}>
       {tag ? (
         <Link href={`/tag/[${tag}]`} as={`/tag/${tag}`}>
-          <a className={Router.asPath === `/tag/${tag}` ? styles.active : ''}>1</a>
+          <a className={cn({[styles.active]: Router.asPath === `/tag/${tag}`})}>1</a>
         </Link>
       ) : (
         <Link href="/">
-          <a className={Router.asPath === '/' ? styles.active : ''}>1</a>
+          <a className={cn({[styles.active]: Router.asPath === '/'})}>1</a>
         </Link>
       )}
       {PAGES.map((page) =>
@@ -28,11 +28,11 @@ function News({ totalData, className, tag }) {
             href={`/tag/[${tag}]/[page]`}
             as={`/tag/${tag}/${page}`}
           >
-            <a className={Router.asPath === `/tag/${tag}/${page}` ? styles.active : ''}>{page}</a>
+            <a className={cn({[styles.active]: Router.asPath === `/tag/${tag}/${page}`})}>{page}</a>
           </Link>
         ) : (
           <Link key={page} href="/[page]" as={`/${page}`}>
-            <a className={Router.asPath === `/${page}` ? styles.active : ''}>{page}</a>
+            <a className={cn({[styles.active] : Router.asPath === `/${page}`})}>{page}</a>
           </Link>
         )
       )}
