@@ -8,9 +8,9 @@ describe('Nav', () => {
     const randomElement = PATHS[Math.floor(Math.random() * PATHS.length)]
     const { asFragment } = render(<Nav />)
     const element = screen.getByText(new RegExp(randomElement.title, 'i'))
-    
+
     expect(asFragment()).toMatchSnapshot()
+    expect(screen.queryByTestId('nav').childElementCount).toBe(PATHS.length + 1)
     expect(element).not.toBeNull()
-    expect(element).toHaveAttribute('href', `/tag/${randomElement.slug}`)
   })
 })

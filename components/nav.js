@@ -8,7 +8,7 @@ import A from './a'
 
 function Nav({ location, className }) {
   return (
-    <div className={cn(styles.nav, className)}>
+    <div data-testid="nav" className={cn(styles.nav, className)}>
       {PATHS.map((path) => {
         return (
           <Link key={path.slug} href="/tag/[tag]" as={`/tag/${path.slug}`}>
