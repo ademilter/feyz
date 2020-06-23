@@ -9,1087 +9,48 @@ exports[`News should have render. 1`] = `
     <article
       class=""
     >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://kattie.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Est veritatis dolor.
-            </a>
-          </h2>
-          <p>
-            Repellendus corrupti repudiandae ut alias omnis nihil dolorem et magnam. Doloribus pariatur ea repudiandae voluptas ea et doloribus in. Voluptates consequatur blanditiis omnis iste. Aut corrupti voluptate ullam ab. Alias quis temporibus ratione cupiditate sed.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://kattie.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            2 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Karlee50"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Karlee50
-          </a>
-          , 
-          <a
-            href="/tag/arac"
-          >
-            Araç
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://floyd.biz"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Quia quasi in occaecati repudiandae sit praesentium occaecati inventore.
-            </a>
-          </h2>
-          <p>
-            Aperiam ut ut maiores sunt necessitatibus. Nesciunt consequatur dolores voluptatem eligendi esse voluptas inventore sequi eos. Minima dolore delectus eos fugit eos voluptatem omnis. Et cupiditate placeat ex natus quia harum.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://floyd.biz"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            5 days ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Dashawn.Heaney50"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Dashawn.Heaney50
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://selmer.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Tempora delectus impedit enim. Dicta rerum dolorum molestias doloribus accusamus laudantium ex. Velit deserunt qui. Nam excepturi sit expedita qui et fugiat architecto vitae.
-        </a>
-      </h2>
-      <footer>
+      <figure>
         <a
           aria-hidden="true"
           class=""
-          href="http://selmer.org"
+          href="https://chadd.net"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          10 months ago
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Doloremque animi officia."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
         </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Cleora.Gislason"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Cleora.Gislason
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/turkce-kaynak"
-        >
-          Türkçe Kaynak
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
-        , 
-        <a
-          href="/tag/yazi"
-        >
-          Blog Yazısı
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-        , 
-        <a
-          href="/tag/etkinlik"
-        >
-          Etkinlik
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://nico.info"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Et consequuntur blanditiis facere tenetur ipsam est architecto. Animi deleniti sit placeat voluptatem autem quaerat sint eos tenetur. Nobis optio exercitationem nostrum. Pariatur reprehenderit eligendi ut aperiam voluptate velit debitis. Maxime vitae nam.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://nico.info"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          8 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Robert_Schuster"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Robert_Schuster
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/arac"
-        >
-          Araç
-        </a>
-        , 
-        <a
-          href="/tag/frontend"
-        >
-          Frontend
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazi"
-        >
-          Blog Yazısı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://torrance.name"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Quae veritatis hic maiores id reprehenderit fugiat eligendi. Voluptates enim fugiat molestias assumenda sint. Nesciunt rerum dolores consequatur sed qui rem perferendis.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://torrance.name"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          14 days ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Jimmy_Swift"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Jimmy_Swift
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://general.com"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Qui odio accusantium dignissimos tenetur nisi alias aliquid necessitatibus. Vitae omnis officia. Laborum in magnam quas eos libero.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://general.com"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          8 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Betty57"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Betty57
-        </a>
-        , 
-        <a
-          href="/tag/frontend"
-        >
-          Frontend
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/video"
-        >
-          Video
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
+      </figure>
       <div>
         <header>
           <h2>
             <a
               class=""
-              href="https://elias.name"
+              href="https://chadd.net"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Autem ipsam sed rerum quae nulla perferendis delectus.
+              Doloremque animi officia.
             </a>
           </h2>
           <p>
-            Quos dignissimos aut. Nulla omnis ipsum.
+            Eum facere ut expedita repudiandae iure labore laborum rerum. Dolorum autem ipsum similique iure error doloremque est. Hic voluptates assumenda nisi fugit dicta in.
           </p>
         </header>
         <footer>
           <a
             aria-hidden="true"
             class=""
-            href="https://elias.name"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            1 month ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Judah.Langosh"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Judah.Langosh
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://clarissa.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Incidunt assumenda ea ut consequatur vero doloremque fugit et qui. Iure dolore eum provident voluptatem ipsam possimus. Reprehenderit voluptatem laudantium. Ea tempora reprehenderit quia aliquam aut numquam. Quia aperiam esse quisquam ut ut omnis et voluptatibus. Eaque autem excepturi ullam nam nesciunt quos.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://clarissa.org"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          7 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Jo44"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Jo44
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-        , 
-        <a
-          href="/tag/frontend"
-        >
-          Frontend
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/etkinlik"
-        >
-          Etkinlik
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://destany.info"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Ea impedit est et at omnis similique sit totam. Minus temporibus perspiciatis. Magni fugiat temporibus et distinctio. Facere sit veniam corporis consequatur qui minus autem et. Esse praesentium dignissimos omnis quidem. Aut in quia praesentium.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://destany.info"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          9 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Sherman.Schuppe67"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Sherman.Schuppe67
-        </a>
-        , 
-        <a
-          href="/tag/video"
-        >
-          Video
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazi"
-        >
-          Blog Yazısı
-        </a>
-        , 
-        <a
-          href="/tag/arac"
-        >
-          Araç
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://dameon.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Eum quis est.
-            </a>
-          </h2>
-          <p>
-            Repudiandae fugiat dolor sit mollitia. Similique accusantium quos numquam non tempora illo consectetur. Qui sit est nisi eius. Totam minus sed iure beatae perferendis nemo nihil enim blanditiis. Doloribus ullam occaecati eaque dignissimos qui tenetur quia.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://dameon.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            9 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Samir_Mayert"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Samir_Mayert
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://eloise.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Incidunt impedit reiciendis quo qui.
-            </a>
-          </h2>
-          <p>
-            Quia similique laboriosam. Quia voluptates consequatur ex et architecto hic ut aliquam.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://eloise.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            4 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Stephen_Ortiz"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Stephen_Ortiz
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://antone.biz"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Quaerat autem quidem mollitia iusto incidunt vel. Fuga ipsum cum fugit. Eaque omnis eum ab ullam cupiditate distinctio aut aut. Est asperiores et unde et repellat ea.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://antone.biz"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          9 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Marjorie36"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Marjorie36
-        </a>
-        , 
-        <a
-          href="/tag/frontend"
-        >
-          Frontend
-        </a>
-        , 
-        <a
-          href="/tag/etkinlik"
-        >
-          Etkinlik
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/yazi"
-        >
-          Blog Yazısı
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://bessie.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Consequatur labore sed quis id.
-            </a>
-          </h2>
-          <p>
-            Sunt iusto eveniet odio. Neque et maxime neque nihil et doloribus inventore suscipit illum. Perspiciatis atque est omnis explicabo non at aut aliquid est.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://bessie.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            9 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Dustin.Mueller16"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Dustin.Mueller16
-          </a>
-          , 
-          <a
-            href="/tag/arac"
-          >
-            Araç
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://audrey.org"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Illo odit illum porro ut impedit incidunt sit suscipit et.
-            </a>
-          </h2>
-          <p>
-            Ipsam commodi est atque neque adipisci est. Maxime voluptatem sint adipisci quia quia sed tenetur. Eum id ut nihil.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://audrey.org"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            6 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Jameson_Batz56"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Jameson_Batz56
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://shany.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Quidem inventore autem quasi veniam sed.
-            </a>
-          </h2>
-          <p>
-            Molestiae ea aliquid. Aut quidem omnis. Non deleniti consectetur sit molestias laborum nesciunt est quia. Sed corporis adipisci velit voluptatum. Itaque perferendis est mollitia. Perspiciatis labore et illo qui nemo qui.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://shany.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            5 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Anastasia_Hyatt63"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Anastasia_Hyatt63
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://melba.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Voluptas necessitatibus quae occaecati quis rerum repudiandae nihil porro aliquam.
-            </a>
-          </h2>
-          <p>
-            Ad tenetur laudantium et reiciendis. Sunt ullam neque officia ipsa incidunt labore qui voluptatem error. Eos asperiores qui veniam. Ut veritatis dolore nam modi ut ab. Harum voluptatem est aut repellendus sint natus itaque. Omnis omnis et dolor laboriosam molestiae.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://melba.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            4 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Elmer_Swaniawski14"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Elmer_Swaniawski14
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://armando.net"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Exercitationem magnam molestiae veritatis. Et distinctio id esse nihil culpa provident hic. Consequatur excepturi unde in vero reiciendis ipsa. Nostrum ad unde rerum aperiam occaecati repellat dolore eius voluptatum. Ut laboriosam quod recusandae laboriosam reiciendis. Ex ad voluptates quasi reiciendis non ut.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://armando.net"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          5 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Max.Tillman"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Max.Tillman
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://cleve.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Et in unde molestias ut at.
-            </a>
-          </h2>
-          <p>
-            Exercitationem consequuntur error totam hic quo qui. Et omnis architecto ea aut et iste aut quia esse. Itaque et vero cumque et iusto voluptatem.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://cleve.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            6 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Retha.Mills"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Retha.Mills
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://amanda.org"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              In sapiente delectus eos.
-            </a>
-          </h2>
-          <p>
-            Eum cumque aut aut ut. Quia aut velit vel. Molestiae quia sint ut odio voluptas pariatur. Rerum consequuntur consectetur ab quae recusandae doloribus in recusandae nobis.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://amanda.org"
+            href="https://chadd.net"
             rel="noopener noreferrer"
             tabindex="-1"
             target="_blank"
@@ -1099,11 +60,29 @@ exports[`News should have render. 1`] = `
           , 
           <a
             class=""
-            href="https://twitter.com/Jewell.Haag87"
+            href="https://twitter.com/Elliott9"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Jewell.Haag87
+            Elliott9
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/turkce-kaynak"
+          >
+            Türkçe Kaynak
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
           </a>
           , 
           <a
@@ -1117,47 +96,146 @@ exports[`News should have render. 1`] = `
     <article
       class=""
     >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://mossie.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Id facilis sed alias nulla omnis sed est."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://mossie.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Id facilis sed alias nulla omnis sed est.
+            </a>
+          </h2>
+          <p>
+            Non dicta delectus ipsam aliquam ipsam. Consequatur tenetur saepe magnam reprehenderit quis earum est. Et vel et ullam dolore eius suscipit in.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://mossie.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Newton21"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Newton21
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
       <h2>
         <a
           class=""
-          href="http://clifton.biz"
+          href="http://alysha.com"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Molestiae sed libero. Vitae et rerum perferendis repudiandae saepe commodi quasi. Sit quaerat omnis rerum architecto sit et.
+          Unde sed at. Sed et velit consequatur sed.
         </a>
       </h2>
       <footer>
         <a
           aria-hidden="true"
           class=""
-          href="http://clifton.biz"
+          href="http://alysha.com"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          3 months ago
+          11 months ago
         </a>
         , 
         <a
           class=""
-          href="https://twitter.com/Adalberto_Crist86"
+          href="https://twitter.com/Blaise_Streich"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Adalberto_Crist86
+          Blaise_Streich
         </a>
         , 
         <a
-          href="/tag/podcast"
+          href="/tag/yazilim"
         >
-          Podcast
+          Yazılım
         </a>
         , 
         <a
-          href="/tag/video"
+          href="/tag/turkce-kaynak"
         >
-          Video
+          Türkçe Kaynak
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
         </a>
         , 
         <a
@@ -1167,9 +245,133 @@ exports[`News should have render. 1`] = `
         </a>
         , 
         <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://malachi.net"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Nesciunt asperiores animi itaque nesciunt ut optio aliquam mollitia aut. Dolores repellat nostrum eveniet. Molestiae perferendis sed cupiditate.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://malachi.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          5 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Devon_Kohler"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Devon_Kohler
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+        , 
+        <a
           href="/tag/alinti"
         >
           Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://alexandrea.name"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Quam voluptatem beatae eum velit corporis. Unde at quasi enim sapiente distinctio quas aut et labore.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://alexandrea.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          8 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Vivian_Beier"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Vivian_Beier
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
         </a>
         , 
         <a
@@ -1182,27 +384,48 @@ exports[`News should have render. 1`] = `
     <article
       class=""
     >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://demetrius.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Vel magni rerum ipsam facere velit voluptas doloribus doloremque."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
       <div>
         <header>
           <h2>
             <a
               class=""
-              href="http://jacinthe.net"
+              href="https://demetrius.name"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Saepe atque optio quam tempore illo.
+              Vel magni rerum ipsam facere velit voluptas doloribus doloremque.
             </a>
           </h2>
           <p>
-            Quasi sint aut amet magni debitis possimus. Eligendi occaecati earum. Beatae iusto harum explicabo ad soluta. Similique beatae consectetur vel et nihil dolore et. Quam hic ratione a sint eveniet quas dignissimos. Voluptatum quibusdam cumque occaecati voluptate tempore id quia ut id.
+            Fuga perferendis autem odit. Et qui possimus aut excepturi ut porro ipsum. Illo esse repellendus voluptate et doloribus ad vel.
           </p>
         </header>
         <footer>
           <a
             aria-hidden="true"
             class=""
-            href="http://jacinthe.net"
+            href="https://demetrius.name"
             rel="noopener noreferrer"
             tabindex="-1"
             target="_blank"
@@ -1212,11 +435,319 @@ exports[`News should have render. 1`] = `
           , 
           <a
             class=""
-            href="https://twitter.com/Cecilia.Jacobson"
+            href="https://twitter.com/Dayana_Feest40"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Cecilia.Jacobson
+            Dayana_Feest40
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/turkce-kaynak"
+          >
+            Türkçe Kaynak
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://mylene.name"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Velit eum magni voluptates eaque soluta aliquam eos porro. Et praesentium accusamus dolor dolorem ea voluptas a repellat et. Sapiente cupiditate magnam animi pariatur voluptatem quas sit. Accusantium et et officiis rerum et corporis. Id autem nam veniam voluptatem.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://mylene.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          13 days ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Cristina.Harvey"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Cristina.Harvey
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://thalia.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Dicta sunt sit rerum."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://thalia.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Dicta sunt sit rerum.
+            </a>
+          </h2>
+          <p>
+            Et aut vel provident voluptas itaque ad possimus eos quam. Nobis quas reiciendis consectetur suscipit quis quasi deleniti esse eos. Sunt nulla adipisci culpa tempore. Est et consequatur et magnam. Beatae atque et modi voluptatem. Omnis quia rerum nobis qui officia.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://thalia.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Gunner94"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Gunner94
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://taryn.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Et vel et repellendus voluptatem molestiae explicabo quos minus."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://taryn.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Et vel et repellendus voluptatem molestiae explicabo quos minus.
+            </a>
+          </h2>
+          <p>
+            Quos eveniet quibusdam amet velit reprehenderit vel repellendus. Velit molestiae blanditiis quasi. Autem dolorum aspernatur qui non qui placeat maxime.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://taryn.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            10 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Zita.Lehner"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Zita.Lehner
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+          , 
+          <a
+            href="/tag/turkce-kaynak"
+          >
+            Türkçe Kaynak
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://sophie.biz"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Molestiae et rerum laudantium aspernatur voluptatibus quas deleniti."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://sophie.biz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Molestiae et rerum laudantium aspernatur voluptatibus quas deleniti.
+            </a>
+          </h2>
+          <p>
+            Ab et minus magni dolor suscipit. Molestiae qui nemo non ad. Est ex commodi.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://sophie.biz"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            2 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Jo.Gislason47"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jo.Gislason47
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
           </a>
           , 
           <a
@@ -1230,78 +761,6 @@ exports[`News should have render. 1`] = `
           >
             Yazılım
           </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
-          </a>
-          , 
-          <a
-            href="/tag/arac"
-          >
-            Araç
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://zelda.biz"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Et labore quia facere blanditiis consequatur repellendus rerum consequuntur.
-            </a>
-          </h2>
-          <p>
-            Est labore pariatur quibusdam. Impedit numquam enim qui voluptatem eos dicta ea nulla. Corrupti vero et. Sed perspiciatis natus est atque. Culpa veritatis sit dolorem facere.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://zelda.biz"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            4 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Barrett.Lubowitz24"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Barrett.Lubowitz24
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
         </footer>
       </div>
     </article>
@@ -1311,32 +770,32 @@ exports[`News should have render. 1`] = `
       <h2>
         <a
           class=""
-          href="http://jayson.org"
+          href="http://kathleen.biz"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Error earum eos non quaerat voluptas. Ex dolorem ut aspernatur non est.
+          Voluptas eius illum iste. Esse ut quis vero ea. Fugit deleniti eligendi sunt facere culpa animi libero quae voluptatibus. Nisi sunt praesentium neque. Provident rem asperiores nam animi unde aut. Dolorem inventore commodi est repellendus est cupiditate saepe porro omnis.
         </a>
       </h2>
       <footer>
         <a
           aria-hidden="true"
           class=""
-          href="http://jayson.org"
+          href="http://kathleen.biz"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          4 months ago
+          11 months ago
         </a>
         , 
         <a
           class=""
-          href="https://twitter.com/Tyree40"
+          href="https://twitter.com/Novella60"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Tyree40
+          Novella60
         </a>
         , 
         <a
@@ -1346,15 +805,9 @@ exports[`News should have render. 1`] = `
         </a>
         , 
         <a
-          href="/tag/podcast"
+          href="/tag/tasarim"
         >
-          Podcast
-        </a>
-        , 
-        <a
-          href="/tag/video"
-        >
-          Video
+          Tasarım
         </a>
         , 
         <a
@@ -1364,9 +817,9 @@ exports[`News should have render. 1`] = `
         </a>
         , 
         <a
-          href="/tag/arac"
+          href="/tag/video"
         >
-          Araç
+          Video
         </a>
       </footer>
     </article>
@@ -1376,32 +829,56 @@ exports[`News should have render. 1`] = `
       <h2>
         <a
           class=""
-          href="https://natalia.name"
+          href="http://ara.biz"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Tenetur laboriosam voluptate sit eveniet. Ex ex illum suscipit quas blanditiis quidem. Repellat maiores aut est ipsa iusto omnis modi qui. Perferendis adipisci at dicta ut occaecati.
+          Sint dicta accusamus sed voluptatem eum voluptatibus. Incidunt repudiandae sed explicabo in deserunt esse.
         </a>
       </h2>
       <footer>
         <a
           aria-hidden="true"
           class=""
-          href="https://natalia.name"
+          href="http://ara.biz"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          5 months ago
+          9 months ago
         </a>
         , 
         <a
           class=""
-          href="https://twitter.com/Jaida.Daugherty20"
+          href="https://twitter.com/Eduardo5"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Jaida.Daugherty20
+          Eduardo5
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
         </a>
         , 
         <a
@@ -1415,24 +892,6 @@ exports[`News should have render. 1`] = `
         >
           Türkçe Kaynak
         </a>
-        , 
-        <a
-          href="/tag/video"
-        >
-          Video
-        </a>
-        , 
-        <a
-          href="/tag/arac"
-        >
-          Araç
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
       </footer>
     </article>
     <article
@@ -1441,18 +900,18 @@ exports[`News should have render. 1`] = `
       <h2>
         <a
           class=""
-          href="https://lilla.net"
+          href="https://tessie.name"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Voluptatem et veniam sequi ea necessitatibus voluptatum. Est et culpa et quasi illo adipisci eaque.
+          Libero dignissimos illum veniam nam nam aut sint quasi. Est occaecati vero consequuntur. Quaerat eveniet fuga nihil. Similique odit similique consequatur dolorem. Ipsam mollitia quia libero distinctio qui quo perferendis possimus quia.
         </a>
       </h2>
       <footer>
         <a
           aria-hidden="true"
           class=""
-          href="https://lilla.net"
+          href="https://tessie.name"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
@@ -1462,309 +921,17 @@ exports[`News should have render. 1`] = `
         , 
         <a
           class=""
-          href="https://twitter.com/Erna_Pfeffer"
+          href="https://twitter.com/Ashly.Conroy22"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Erna_Pfeffer
+          Ashly.Conroy22
         </a>
         , 
         <a
           href="/tag/alinti"
         >
           Alıntı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://cesar.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Sed earum magni in qui nihil voluptatibus repellat.
-            </a>
-          </h2>
-          <p>
-            Dicta et amet voluptas eligendi laudantium libero impedit. Laboriosam sint repellat quibusdam reprehenderit numquam. Molestiae odio dolorem ipsam. Perferendis occaecati consequatur eum voluptatem dolor. Est ex culpa quae temporibus neque saepe suscipit ut voluptatem. Qui tempora ut saepe eos adipisci.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://cesar.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            9 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Isabelle87"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Isabelle87
-          </a>
-          , 
-          <a
-            href="/tag/arac"
-          >
-            Araç
-          </a>
-          , 
-          <a
-            href="/tag/yazilim"
-          >
-            Yazılım
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://clay.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Culpa unde blanditiis doloribus autem odit.
-            </a>
-          </h2>
-          <p>
-            Aspernatur error atque et velit est ut magnam distinctio ipsam. Deleniti omnis officia perspiciatis adipisci iure fugit. Ut nisi beatae et ipsam. Vel similique et doloribus impedit aut. Qui veritatis harum atque. Eos reiciendis voluptatem recusandae eum.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://clay.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            5 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Antonetta59"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Antonetta59
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://bernie.net"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Deserunt dolorum aut et exercitationem voluptatem occaecati ea ut. Aliquid tempora non non suscipit. Odio explicabo eaque laudantium harum laborum sequi sunt. Dignissimos libero aut. Temporibus non quo autem. Cum consectetur ipsam eligendi aut est sit.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://bernie.net"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          2 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Annetta.Ziemann"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Annetta.Ziemann
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/turkce-kaynak"
-        >
-          Türkçe Kaynak
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://frederik.org"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Facilis quis dolorem corporis ipsum.
-            </a>
-          </h2>
-          <p>
-            Et aut aut nisi velit magni voluptatibus ipsam dignissimos. Doloremque animi vero mollitia. Dolorem qui voluptas dolorum.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://frederik.org"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            6 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Brennan_Halvorson"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Brennan_Halvorson
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://lucile.net"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Non eligendi laboriosam et soluta ullam harum modi alias. Temporibus sunt numquam facilis saepe odio. Ullam et id ipsam provident eius. Eveniet omnis dolor quod natus sit voluptas quam delectus consequuntur. Possimus voluptas rerum ullam voluptatum hic suscipit.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://lucile.net"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          5 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Harold.Brekke71"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Harold.Brekke71
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
         </a>
         , 
         <a
@@ -1774,21 +941,74 @@ exports[`News should have render. 1`] = `
         </a>
         , 
         <a
-          href="/tag/etkinlik"
+          href="/tag/podcast"
         >
-          Etkinlik
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://lafayette.biz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Expedita fuga voluptatum expedita iusto officiis voluptas et. Animi voluptatem reprehenderit quisquam explicabo unde consequatur. Quibusdam dolorum temporibus illum id itaque distinctio. Qui in iusto id aperiam.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://lafayette.biz"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          1 month ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Pasquale79"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Pasquale79
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
         </a>
         , 
         <a
           href="/tag/alinti"
         >
           Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/turkce-kaynak"
-        >
-          Türkçe Kaynak
         </a>
         , 
         <a
@@ -1801,201 +1021,68 @@ exports[`News should have render. 1`] = `
     <article
       class=""
     >
-      <h2>
-        <a
-          class=""
-          href="http://cielo.name"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Sapiente animi asperiores hic iusto perspiciatis quas. Et totam eos consequuntur corrupti molestiae qui autem tenetur. Est labore nam mollitia natus molestiae vel quo. Tenetur iste repudiandae in laudantium officiis ut.
-        </a>
-      </h2>
-      <footer>
+      <figure>
         <a
           aria-hidden="true"
           class=""
-          href="http://cielo.name"
+          href="https://richie.org"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          7 months ago
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Asperiores unde quidem nesciunt voluptatum consequatur."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
         </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Remington_Lockman"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Remington_Lockman
-        </a>
-        , 
-        <a
-          href="/tag/arac"
-        >
-          Araç
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
+      </figure>
       <div>
         <header>
           <h2>
             <a
               class=""
-              href="https://willard.com"
+              href="https://richie.org"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Vitae nihil aut natus reiciendis et adipisci vitae.
+              Asperiores unde quidem nesciunt voluptatum consequatur.
             </a>
           </h2>
           <p>
-            Soluta qui consectetur asperiores voluptate dolor sed. Facere ullam provident tenetur ea laboriosam earum. Et minus voluptatem quasi et adipisci totam blanditiis. Perspiciatis et accusamus ex ut tenetur alias architecto adipisci dolor. Necessitatibus qui explicabo labore rerum error est consequatur excepturi voluptatum.
+            Dolorem necessitatibus culpa et voluptas ipsum quis. Quis magni dolores maxime ut sit tempore.
           </p>
         </header>
         <footer>
           <a
             aria-hidden="true"
             class=""
-            href="https://willard.com"
+            href="https://richie.org"
             rel="noopener noreferrer"
             tabindex="-1"
             target="_blank"
           >
-            11 months ago
+            7 months ago
           </a>
           , 
           <a
             class=""
-            href="https://twitter.com/Alayna.Dare42"
+            href="https://twitter.com/Vernice53"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Alayna.Dare42
+            Vernice53
           </a>
           , 
           <a
-            href="/tag/turkce-kaynak"
+            href="/tag/podcast"
           >
-            Türkçe Kaynak
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://montana.info"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Deserunt eos eos omnis. Numquam explicabo voluptatem at non ut. Et voluptatem aut. Quia possimus aut consequatur molestiae dolor. Perspiciatis aliquid ex doloremque.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://montana.info"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          5 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Lauretta_Ebert"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Lauretta_Ebert
-        </a>
-        , 
-        <a
-          href="/tag/turkce-kaynak"
-        >
-          Türkçe Kaynak
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://finn.biz"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Ex quia reiciendis sapiente voluptatem nostrum omnis in numquam et.
-            </a>
-          </h2>
-          <p>
-            Distinctio dolorem voluptatum saepe in molestias aut. Rem possimus aut sint aut sint. Eveniet quidem perferendis sed voluptatem autem. Amet quia dolores. Voluptas rem quae laboriosam et consequatur velit optio. Nihil velit et quisquam dolore.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://finn.biz"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            5 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Dessie_Steuber"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Dessie_Steuber
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
+            Podcast
           </a>
           , 
           <a
@@ -2009,191 +1096,6 @@ exports[`News should have render. 1`] = `
           >
             Araç
           </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://scot.name"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Sequi dolores in facere.
-            </a>
-          </h2>
-          <p>
-            Perspiciatis at illum est. Id doloremque ea tempora necessitatibus animi unde sed placeat dolorem. Vel voluptatum enim est dolorem dolorum est. Ipsum et adipisci consequatur dolorum aut. Vel quam et rerum veniam quod totam. Nostrum neque fugit dolor voluptatem earum dolor facere.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://scot.name"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            9 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Alysa.Hilll"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Alysa.Hilll
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-          , 
-          <a
-            href="/tag/yazilim"
-          >
-            Yazılım
-          </a>
-          , 
-          <a
-            href="/tag/frontend"
-          >
-            Frontend
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="https://waylon.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Ut reprehenderit similique doloremque eius optio. Culpa voluptatum ab officiis. Ut autem occaecati omnis eveniet doloremque cum.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="https://waylon.org"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          7 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Armando62"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Armando62
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
-        , 
-        <a
-          href="/tag/arac"
-        >
-          Araç
-        </a>
-        , 
-        <a
-          href="/tag/tasarim"
-        >
-          Tasarım
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://cyril.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Ratione excepturi neque odit explicabo inventore.
-            </a>
-          </h2>
-          <p>
-            Maiores animi neque sint. Dolor et aspernatur eos aut nihil quas qui voluptatem officia. Ratione nulla in quae aut molestiae. Omnis nihil et ut. Id et odio sequi aut reiciendis quo qui sed. Ab sed atque impedit sit quia excepturi quia praesentium quam.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://cyril.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            3 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Evan85"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Evan85
-          </a>
-          , 
-          <a
-            href="/tag/yazilim"
-          >
-            Yazılım
-          </a>
           , 
           <a
             href="/tag/etkinlik"
@@ -2202,15 +1104,9 @@ exports[`News should have render. 1`] = `
           </a>
           , 
           <a
-            href="/tag/frontend"
+            href="/tag/yazi"
           >
-            Frontend
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
+            Blog Yazısı
           </a>
           , 
           <a
@@ -2227,32 +1123,780 @@ exports[`News should have render. 1`] = `
       <h2>
         <a
           class=""
-          href="https://vivianne.biz"
+          href="https://hadley.org"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Cupiditate sit id enim rerum sunt. Et eos a reiciendis libero qui rem incidunt autem. Et voluptatem labore id.
+          Veritatis reprehenderit doloribus rem officiis. Vel quia voluptate quidem et velit nihil. Libero dolores possimus non earum dignissimos. Vel commodi aut unde similique velit consequatur et earum consequatur. Ut repudiandae animi ipsam nisi deserunt repudiandae.
         </a>
       </h2>
       <footer>
         <a
           aria-hidden="true"
           class=""
-          href="https://vivianne.biz"
+          href="https://hadley.org"
           rel="noopener noreferrer"
           tabindex="-1"
           target="_blank"
         >
-          2 months ago
+          1 month ago
         </a>
         , 
         <a
           class=""
-          href="https://twitter.com/Serena95"
+          href="https://twitter.com/Emmanuel.Wisoky"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Serena95
+          Emmanuel.Wisoky
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://jordon.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Maxime laudantium facilis qui possimus ea enim et aperiam."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://jordon.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Maxime laudantium facilis qui possimus ea enim et aperiam.
+            </a>
+          </h2>
+          <p>
+            Beatae tempore quidem fuga deserunt. Libero aut incidunt placeat magnam at voluptatem nihil et. Impedit consequuntur aliquam. Sapiente unde voluptatum praesentium unde non amet. Ut laborum vel quaerat.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://jordon.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Myrtle84"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Myrtle84
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="https://corene.net"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Accusantium enim velit provident ullam modi perferendis accusamus temporibus. Tempore consectetur dolore nihil veritatis reprehenderit ut. Odit perspiciatis ad eos ab sequi minus est nobis et. Ullam natus ut et dolor et. Recusandae ipsa vel. Maxime harum quod.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://corene.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          1 month ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Haskell64"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Haskell64
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://keyon.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Illo porro voluptatem rem qui."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://keyon.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Illo porro voluptatem rem qui.
+            </a>
+          </h2>
+          <p>
+            Quos rerum culpa sapiente. Laboriosam tempora ea et nam.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://keyon.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            29 days ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Jarrell_Lesch23"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jarrell_Lesch23
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://stephania.biz"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Et earum accusantium tempore."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://stephania.biz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Et earum accusantium tempore.
+            </a>
+          </h2>
+          <p>
+            Hic ut laborum ipsam ut nam sapiente numquam officiis. Rerum rem molestias odit commodi minus dolorem quo ab. Voluptas dolorem veritatis natus eos. Porro occaecati animi voluptate sit eum omnis consequuntur. Quo quos consequatur omnis enim qui eos veritatis assumenda velit.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://stephania.biz"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            5 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Brandt22"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Brandt22
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://lenore.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Sed voluptas porro ut facilis."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://lenore.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Sed voluptas porro ut facilis.
+            </a>
+          </h2>
+          <p>
+            Qui quos eaque illo. Aliquam modi repellat tempora delectus et non maiores omnis soluta. Illo doloremque ut voluptatem. Minima aut voluptatibus quis dicta. Et modi earum.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://lenore.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            7 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Paul69"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Paul69
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/turkce-kaynak"
+          >
+            Türkçe Kaynak
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://kris.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Voluptatem eos molestias quo ea id et."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://kris.name"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Voluptatem eos molestias quo ea id et.
+            </a>
+          </h2>
+          <p>
+            Quos omnis quod dolore iusto voluptatem voluptas. Ducimus porro harum quia aspernatur. Voluptatem adipisci vitae.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://kris.name"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            2 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Diego.Hettinger36"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Diego.Hettinger36
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://rowena.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Suscipit explicabo nihil laudantium quasi id ratione itaque et omnis."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://rowena.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Suscipit explicabo nihil laudantium quasi id ratione itaque et omnis.
+            </a>
+          </h2>
+          <p>
+            Consequatur natus reiciendis sunt provident. Quo alias aut ea.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://rowena.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            1 month ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Emmet16"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Emmet16
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://meagan.biz"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Cupiditate soluta consectetur aspernatur molestiae labore quos expedita doloribus voluptas."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://meagan.biz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Cupiditate soluta consectetur aspernatur molestiae labore quos expedita doloribus voluptas.
+            </a>
+          </h2>
+          <p>
+            Nemo corporis veniam. Repudiandae voluptate ipsam facilis doloribus et.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://meagan.biz"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Jarred93"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jarred93
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://taya.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Earum qui soluta eligendi eos."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://taya.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Earum qui soluta eligendi eos.
+            </a>
+          </h2>
+          <p>
+            Voluptatem a tenetur voluptas quis. Optio dolorem in illum. Autem enim aut quis consequatur rerum nesciunt. Neque doloribus id vitae maxime accusamus. Quasi nemo nemo maiores aut ullam voluptatum possimus.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://taya.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            5 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Margarette.Effertz70"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Margarette.Effertz70
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://ila.info"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Vel dolore in saepe libero et quibusdam saepe. In adipisci vel deleniti aliquam dolores inventore beatae. Laborum illum sunt voluptas enim voluptates. Suscipit quo ipsam nihil dolores molestiae sint et sit non. Ut nesciunt qui est ad.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://ila.info"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          11 days ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Delmer78"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Delmer78
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
         </a>
         , 
         <a
@@ -2268,9 +1912,832 @@ exports[`News should have render. 1`] = `
         </a>
         , 
         <a
-          href="/tag/turkce-kaynak"
+          href="/tag/podcast"
         >
-          Türkçe Kaynak
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://gail.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Eos quos vel eum."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://gail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Eos quos vel eum.
+            </a>
+          </h2>
+          <p>
+            Ipsum illo qui doloribus tenetur. Aut modi voluptate dolores est quam porro. Aspernatur dolores eveniet officia.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://gail.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            8 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Hattie.Gibson"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Hattie.Gibson
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://dangelo.name"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Iure aut repellendus eum ut laborum fugiat. Voluptas illum et sed et. A qui natus porro molestias. Qui esse et deserunt consequatur et quibusdam cupiditate sed. Magni nam eum eius quae quibusdam et soluta aperiam iusto.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://dangelo.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          2 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Frankie.Herman15"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Frankie.Herman15
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://antonia.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Voluptatem dolores vel est laudantium inventore."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://antonia.name"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Voluptatem dolores vel est laudantium inventore.
+            </a>
+          </h2>
+          <p>
+            Eveniet reiciendis repudiandae delectus amet nihil fugiat sit voluptatem minus. Accusantium aut perspiciatis porro corporis sapiente.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://antonia.name"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            6 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Jeremie.Kuhn30"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jeremie.Kuhn30
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://kasey.info"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Ad numquam occaecati."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://kasey.info"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Ad numquam occaecati.
+            </a>
+          </h2>
+          <p>
+            Tenetur eos praesentium laudantium impedit asperiores exercitationem dolorem fugit dolore. Culpa dolor hic ut sit nam facilis veniam. Earum consequatur dolores minima quis fuga illum. Maxime distinctio sit modi. Animi natus quis optio dolorem earum non ipsa dignissimos. Possimus est corporis ea et rerum quidem.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://kasey.info"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Emie_Crona"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Emie_Crona
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://maxime.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Nulla sequi unde."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://maxime.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Nulla sequi unde.
+            </a>
+          </h2>
+          <p>
+            Nostrum quia porro occaecati repellat id dolores eos et reprehenderit. Autem sint perferendis qui dolorem minima incidunt omnis. Delectus quae adipisci et nihil pariatur. Voluptatem vel ex et et dignissimos sunt facere placeat.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://maxime.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Anjali90"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Anjali90
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://kassandra.info"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Maiores ut ut laboriosam adipisci quidem aliquam magni eaque."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://kassandra.info"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Maiores ut ut laboriosam adipisci quidem aliquam magni eaque.
+            </a>
+          </h2>
+          <p>
+            Quos dolore voluptate amet aperiam. Quis facilis aut. Et asperiores doloribus dolores at est voluptas et sint. Officiis velit debitis officia sed. Dolorum vel sunt natus ea reprehenderit perspiciatis animi soluta ipsam. Est mollitia veritatis.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://kassandra.info"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            2 days ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Reinhold_Block50"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Reinhold_Block50
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://mandy.biz"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Non quia qui voluptatem nihil officiis."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://mandy.biz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Non quia qui voluptatem nihil officiis.
+            </a>
+          </h2>
+          <p>
+            Recusandae facilis quaerat omnis. Id doloribus numquam similique nisi est voluptas ipsum. Repellat tempora quidem quis magni dolore.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://mandy.biz"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            3 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Frederique84"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Frederique84
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://herminio.info"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Mollitia debitis corporis sint commodi magnam ut laborum dolores aut."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://herminio.info"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Mollitia debitis corporis sint commodi magnam ut laborum dolores aut.
+            </a>
+          </h2>
+          <p>
+            Et quam delectus dolorem quidem itaque ad amet quasi at. Quod sit quas beatae qui ut. Deleniti officiis pariatur laudantium voluptate maiores.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://herminio.info"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            9 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Madisen.Dibbert"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Madisen.Dibbert
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://ulices.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Eveniet quis aliquam eum aut."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://ulices.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Eveniet quis aliquam eum aut.
+            </a>
+          </h2>
+          <p>
+            Sunt dolor consequuntur corporis nemo omnis veritatis corporis quibusdam doloribus. Reiciendis et eligendi totam accusamus aspernatur autem. Exercitationem facere voluptas dolorem recusandae est officiis corrupti.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://ulices.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            1 month ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Bernie_Zemlak"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Bernie_Zemlak
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://brayan.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Provident reiciendis et dolorem eos omnis accusamus voluptas."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://brayan.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Provident reiciendis et dolorem eos omnis accusamus voluptas.
+            </a>
+          </h2>
+          <p>
+            Labore enim rerum. Officiis eveniet ipsa aperiam dolorem sequi ratione porro mollitia. Odit sit architecto corporis tempora facilis quae vel dignissimos. Recusandae beatae quis aut ipsam. Modi eligendi unde voluptatem. Blanditiis aspernatur quibusdam quidem quia omnis omnis nesciunt aspernatur earum.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://brayan.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            2 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Berta.Hirthe"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Berta.Hirthe
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://freeda.name"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Autem ducimus quod dolores nulla voluptas nesciunt commodi. Qui quam qui sit autem tenetur consectetur. Repudiandae dolorum ut omnis facilis iusto natus. Quibusdam in natus cum sunt. Provident praesentium aut sunt est rerum quia iste explicabo.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://freeda.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          8 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Evelyn18"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Evelyn18
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
         </a>
         , 
         <a
@@ -2284,52 +2751,121 @@ exports[`News should have render. 1`] = `
         >
           Video
         </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
       </footer>
     </article>
     <article
       class=""
     >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://dusty.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Perferendis consectetur quia similique id delectus deleniti."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
       <div>
         <header>
           <h2>
             <a
               class=""
-              href="https://florence.net"
+              href="http://dusty.net"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Asperiores omnis nihil nesciunt id quasi ipsa porro rerum non.
+              Perferendis consectetur quia similique id delectus deleniti.
             </a>
           </h2>
           <p>
-            Et ullam repellat esse consequuntur aut. Officiis cupiditate officia aliquid. Autem alias et at autem. Officiis et quibusdam vel.
+            Culpa aut corrupti quia dolores. Dolor accusantium voluptas eos modi minus. Neque et et facilis molestiae aperiam sapiente vitae quia sed. Dolore asperiores quia beatae cupiditate repellat voluptatem perspiciatis qui quo.
           </p>
         </header>
         <footer>
           <a
             aria-hidden="true"
             class=""
-            href="https://florence.net"
+            href="http://dusty.net"
             rel="noopener noreferrer"
             tabindex="-1"
             target="_blank"
           >
-            8 months ago
+            11 months ago
           </a>
           , 
           <a
             class=""
-            href="https://twitter.com/Norval.Fadel"
+            href="https://twitter.com/Adrienne.Durgan50"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Norval.Fadel
+            Adrienne.Durgan50
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
           </a>
           , 
           <a
             href="/tag/yazilim"
           >
             Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
           </a>
           , 
           <a
@@ -2343,255 +2879,202 @@ exports[`News should have render. 1`] = `
     <article
       class=""
     >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://elza.org"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Temporibus unde quo quos deserunt rerum quasi.
-            </a>
-          </h2>
-          <p>
-            Eum repellendus quia dolores ex magnam nihil est sapiente. Esse est est possimus ducimus quaerat aut molestiae perferendis.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://elza.org"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            3 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Marquise.Mertz76"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Marquise.Mertz76
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-          , 
-          <a
-            href="/tag/podcast"
-          >
-            Podcast
-          </a>
-          , 
-          <a
-            href="/tag/arac"
-          >
-            Araç
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-        </footer>
-      </div>
+      <h2>
+        <a
+          class=""
+          href="http://nia.info"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Delectus maxime tempora. Nihil est eveniet. Eaque odio assumenda. Vel quod qui vel impedit sed doloribus.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://nia.info"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          1 month ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Heber.Schamberger85"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Heber.Schamberger85
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+      </footer>
     </article>
     <article
       class=""
     >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://minerva.biz"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aut ad optio in.
-            </a>
-          </h2>
-          <p>
-            Beatae quibusdam officia. Repudiandae non expedita. Minima omnis et harum. Soluta magni optio illo itaque nam. Iure quibusdam minima itaque minus voluptas error.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://minerva.biz"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            10 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Annabell.Treutel"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Annabell.Treutel
-          </a>
-          , 
-          <a
-            href="/tag/etkinlik"
-          >
-            Etkinlik
-          </a>
-          , 
-          <a
-            href="/tag/video"
-          >
-            Video
-          </a>
-          , 
-          <a
-            href="/tag/yazilim"
-          >
-            Yazılım
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-        </footer>
-      </div>
+      <h2>
+        <a
+          class=""
+          href="https://kitty.name"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Facilis eius saepe. Nihil iure aut sit sequi tempora. Iusto incidunt inventore incidunt hic dicta odio id.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://kitty.name"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          10 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Skylar.Nicolas70"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Skylar.Nicolas70
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+      </footer>
     </article>
     <article
       class=""
     >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://joanie.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Aut quo commodi velit qui alias sed quia occaecati."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
       <div>
         <header>
           <h2>
             <a
               class=""
-              href="https://karley.biz"
+              href="http://joanie.org"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Possimus nostrum consequatur architecto asperiores dolorem dolorem magnam.
+              Aut quo commodi velit qui alias sed quia occaecati.
             </a>
           </h2>
           <p>
-            Ut atque occaecati velit. Iusto soluta sed sed laborum. Eum eum blanditiis. Omnis et qui repellendus et voluptas est tempora ab ad. Est autem quas.
+            Possimus qui doloribus. Illo et in. Illum et nostrum mollitia unde perspiciatis quasi necessitatibus qui. Quas dolores cupiditate facilis laborum quisquam. Suscipit architecto consequuntur similique totam beatae rerum autem recusandae.
           </p>
         </header>
         <footer>
           <a
             aria-hidden="true"
             class=""
-            href="https://karley.biz"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            8 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Pierre.Weissnat36"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Pierre.Weissnat36
-          </a>
-          , 
-          <a
-            href="/tag/turkce-kaynak"
-          >
-            Türkçe Kaynak
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://grace.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Rerum omnis ipsam eveniet.
-            </a>
-          </h2>
-          <p>
-            Quis rerum hic distinctio. Debitis reprehenderit expedita ab necessitatibus eum perferendis vero. Veritatis sed eum possimus dolores placeat ut temporibus. Ea nesciunt fuga enim sed et qui. Dicta rem placeat quo blanditiis dolor quo hic necessitatibus exercitationem.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://grace.com"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            6 months ago
-          </a>
-          , 
-          <a
-            class=""
-            href="https://twitter.com/Dillon14"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Dillon14
-          </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="http://malachi.net"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Quas eaque quia.
-            </a>
-          </h2>
-          <p>
-            Maxime repudiandae impedit quibusdam nesciunt commodi eligendi quia et. Praesentium et consequatur. Aspernatur rerum est possimus ut eius maxime. Rerum placeat ullam est enim error aspernatur ab et officiis. Nobis odio et reiciendis sed quia quasi sed autem tempora.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://malachi.net"
+            href="http://joanie.org"
             rel="noopener noreferrer"
             tabindex="-1"
             target="_blank"
@@ -2601,17 +3084,11 @@ exports[`News should have render. 1`] = `
           , 
           <a
             class=""
-            href="https://twitter.com/Nakia_Hettinger"
+            href="https://twitter.com/Jennings_Carroll0"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Nakia_Hettinger
-          </a>
-          , 
-          <a
-            href="/tag/yazi"
-          >
-            Blog Yazısı
+            Jennings_Carroll0
           </a>
           , 
           <a
@@ -2619,53 +3096,11 @@ exports[`News should have render. 1`] = `
           >
             Podcast
           </a>
-        </footer>
-      </div>
-    </article>
-    <article
-      class=""
-    >
-      <div>
-        <header>
-          <h2>
-            <a
-              class=""
-              href="https://jerod.info"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Alias aut accusantium dolorem facilis.
-            </a>
-          </h2>
-          <p>
-            Ea quia molestias voluptas necessitatibus similique consequatur. Quia et quos et enim qui quod.
-          </p>
-        </header>
-        <footer>
-          <a
-            aria-hidden="true"
-            class=""
-            href="https://jerod.info"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            10 months ago
-          </a>
           , 
           <a
-            class=""
-            href="https://twitter.com/Kiera.Willms"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/tag/frontend"
           >
-            Kiera.Willms
-          </a>
-          , 
-          <a
-            href="/tag/tasarim"
-          >
-            Tasarım
+            Frontend
           </a>
           , 
           <a
@@ -2675,15 +3110,230 @@ exports[`News should have render. 1`] = `
           </a>
           , 
           <a
-            href="/tag/yazi"
+            href="/tag/turkce-kaynak"
           >
-            Blog Yazısı
+            Türkçe Kaynak
           </a>
           , 
           <a
             href="/tag/video"
           >
             Video
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://jacynthe.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Vel autem officiis. Sunt qui id maxime veritatis blanditiis earum sit odit. Enim aut officiis. Consectetur pariatur sed. Sit corrupti ut suscipit dicta pariatur.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://jacynthe.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          9 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Nikko_Haag56"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Nikko_Haag56
+        </a>
+        , 
+        <a
+          href="/tag/tasarim"
+        >
+          Tasarım
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://philip.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Fuga magnam nesciunt aut labore sit laboriosam voluptatem quas."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://philip.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Fuga magnam nesciunt aut labore sit laboriosam voluptatem quas.
+            </a>
+          </h2>
+          <p>
+            Quis enim iste. Non harum saepe similique magnam omnis et. Nostrum atque expedita molestiae. Exercitationem reprehenderit doloremque voluptatum. Animi dicta perferendis. Quia quidem iste expedita porro velit perspiciatis vel in.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://philip.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            5 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Hope90"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Hope90
+          </a>
+          , 
+          <a
+            href="/tag/podcast"
+          >
+            Podcast
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://josh.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Maiores et ut eos nihil quo nesciunt autem."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="http://josh.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Maiores et ut eos nihil quo nesciunt autem.
+            </a>
+          </h2>
+          <p>
+            Soluta vel beatae quibusdam officiis omnis. Quia quas eos consequatur voluptatem porro sapiente distinctio voluptate. Et inventore ut consequatur et dolor pariatur. Id voluptatum porro alias molestiae aut quidem pariatur. Nulla ut quod amet amet vel.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="http://josh.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            5 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Wendy.Goldner81"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Wendy.Goldner81
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
           </a>
           , 
           <a
@@ -2693,15 +3343,475 @@ exports[`News should have render. 1`] = `
           </a>
           , 
           <a
-            href="/tag/turkce-kaynak"
+            href="/tag/video"
           >
-            Türkçe Kaynak
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://adalberto.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Qui aliquam et rerum rerum tempora nam molestiae odit."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://adalberto.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Qui aliquam et rerum rerum tempora nam molestiae odit.
+            </a>
+          </h2>
+          <p>
+            Dignissimos enim ex ex distinctio sint. Nam dolores illo quibusdam est et molestias repudiandae vero optio. Tempore ipsa voluptas accusamus aliquid autem.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://adalberto.net"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            2 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Janelle.Doyle40"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Janelle.Doyle40
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/tasarim"
+          >
+            Tasarım
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://joelle.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Quibusdam eos omnis delectus saepe quis."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://joelle.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Quibusdam eos omnis delectus saepe quis.
+            </a>
+          </h2>
+          <p>
+            Quae nesciunt ex nisi dicta tempore exercitationem maxime et vitae. Nulla labore numquam sit modi asperiores vitae. Illo in veniam ipsam libero voluptas ea. Dolor ratione voluptatibus eos eum nihil.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://joelle.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            1 month ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Ardella_Spinka"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Ardella_Spinka
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://mathilde.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Dicta praesentium deserunt eum magni. Et eaque rerum pariatur nostrum sequi eius. Et adipisci explicabo rerum. Est delectus aut quasi numquam impedit.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://mathilde.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          8 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Kathlyn_Keebler"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Kathlyn_Keebler
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/turkce-kaynak"
+        >
+          Türkçe Kaynak
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://eveline.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Odit modi non eos iste rerum adipisci voluptatem."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://eveline.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Odit modi non eos iste rerum adipisci voluptatem.
+            </a>
+          </h2>
+          <p>
+            Rerum quia aperiam est cumque ut quo deleniti. Neque laboriosam et perferendis dolorum beatae ut dolore ipsa. Rerum enim quis magni et.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://eveline.com"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            6 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Jovani.Koelpin"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jovani.Koelpin
           </a>
           , 
           <a
             href="/tag/etkinlik"
           >
             Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/turkce-kaynak"
+          >
+            Türkçe Kaynak
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+        </footer>
+      </div>
+    </article>
+    <article
+      class=""
+    >
+      <h2>
+        <a
+          class=""
+          href="http://janice.org"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Qui laudantium tempore accusamus iusto. Ratione ut exercitationem iusto veritatis unde sit hic.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://janice.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          3 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Emily_Carroll"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Emily_Carroll
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
+        </a>
+        , 
+        <a
+          href="/tag/arac"
+        >
+          Araç
+        </a>
+        , 
+        <a
+          href="/tag/video"
+        >
+          Video
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+    >
+      <figure>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://mohamed.org"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          <picture>
+            <source
+              srcset="http://lorempixel.com/913/512"
+            />
+            <img
+              alt="Minima sunt recusandae repudiandae ratione."
+              loading="lazy"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+            />
+          </picture>
+        </a>
+      </figure>
+      <div>
+        <header>
+          <h2>
+            <a
+              class=""
+              href="https://mohamed.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Minima sunt recusandae repudiandae ratione.
+            </a>
+          </h2>
+          <p>
+            Et autem dolorum minus quasi. Quia illo et ut optio saepe perferendis consequatur voluptas. Et culpa nisi modi. Et sit quibusdam enim inventore. Commodi corrupti amet modi asperiores consequatur nemo et.
+          </p>
+        </header>
+        <footer>
+          <a
+            aria-hidden="true"
+            class=""
+            href="https://mohamed.org"
+            rel="noopener noreferrer"
+            tabindex="-1"
+            target="_blank"
+          >
+            4 months ago
+          </a>
+          , 
+          <a
+            class=""
+            href="https://twitter.com/Adela_Swift16"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Adela_Swift16
+          </a>
+          , 
+          <a
+            href="/tag/frontend"
+          >
+            Frontend
+          </a>
+          , 
+          <a
+            href="/tag/video"
+          >
+            Video
+          </a>
+          , 
+          <a
+            href="/tag/etkinlik"
+          >
+            Etkinlik
+          </a>
+          , 
+          <a
+            href="/tag/arac"
+          >
+            Araç
+          </a>
+          , 
+          <a
+            href="/tag/yazilim"
+          >
+            Yazılım
+          </a>
+          , 
+          <a
+            href="/tag/yazi"
+          >
+            Blog Yazısı
           </a>
         </footer>
       </div>

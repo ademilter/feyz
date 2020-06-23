@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsCard should have render with "Alıntı" tag. 1`] = `
+<DocumentFragment>
+  <article
+    class=""
+  >
+    <h2>
+      <a
+        class=""
+        href="http://alysha.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Unde sed at. Sed et velit consequatur sed.
+      </a>
+    </h2>
+    <footer>
+      <a
+        aria-hidden="true"
+        class=""
+        href="http://alysha.com"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        11 months ago
+      </a>
+      , 
+      <a
+        class=""
+        href="https://twitter.com/Blaise_Streich"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Blaise_Streich
+      </a>
+      , 
+      <a
+        href="/tag/yazilim"
+      >
+        Yazılım
+      </a>
+      , 
+      <a
+        href="/tag/turkce-kaynak"
+      >
+        Türkçe Kaynak
+      </a>
+      , 
+      <a
+        href="/tag/alinti"
+      >
+        Alıntı
+      </a>
+      , 
+      <a
+        href="/tag/yazi"
+      >
+        Blog Yazısı
+      </a>
+      , 
+      <a
+        href="/tag/podcast"
+      >
+        Podcast
+      </a>
+    </footer>
+  </article>
+</DocumentFragment>
+`;
+
+exports[`NewsCard should have render. 1`] = `
+<DocumentFragment>
+  <article
+    class=""
+  >
+    <figure>
+      <a
+        aria-hidden="true"
+        class=""
+        href="https://chadd.net"
+        rel="noopener noreferrer"
+        tabindex="-1"
+        target="_blank"
+      >
+        <picture>
+          <source
+            srcset="http://lorempixel.com/913/512"
+          />
+          <img
+            alt="Doloremque animi officia."
+            loading="lazy"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
+          />
+        </picture>
+      </a>
+    </figure>
+    <div>
+      <header>
+        <h2>
+          <a
+            class=""
+            href="https://chadd.net"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Doloremque animi officia.
+          </a>
+        </h2>
+        <p>
+          Eum facere ut expedita repudiandae iure labore laborum rerum. Dolorum autem ipsum similique iure error doloremque est. Hic voluptates assumenda nisi fugit dicta in.
+        </p>
+      </header>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="https://chadd.net"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          3 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Elliott9"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Elliott9
+        </a>
+        , 
+        <a
+          href="/tag/frontend"
+        >
+          Frontend
+        </a>
+        , 
+        <a
+          href="/tag/turkce-kaynak"
+        >
+          Türkçe Kaynak
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+        , 
+        <a
+          href="/tag/etkinlik"
+        >
+          Etkinlik
+        </a>
+      </footer>
+    </div>
+  </article>
+</DocumentFragment>
+`;
