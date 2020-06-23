@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "next",
     "build": "NODE_ENV=production next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -16,6 +19,10 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
     "postcss-custom-media": "^7.0.8",
     "postcss-nested": "^4.2.1",
     "prettier": "^2.0.5"
