@@ -3,5 +3,5 @@ module.exports = {
   setupFilesAfterEnv: ['./test/global.js'],
   testEnvironment: 'jsdom',
   transformIgnorePatterns: ['node_modules/(?!(imask)/)'],
-  testURL: 'https://feyz.li'
+  testURL: 'https://feyz.li',
 }
