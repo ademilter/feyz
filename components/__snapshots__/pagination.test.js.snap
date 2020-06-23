@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should have render with tag. 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+    data-testid="pagination"
+  >
+    <a
+      href="/tag/test"
+    >
+      1
+    </a>
+    <a
+      href="/tag/test/2"
+    >
+      2
+    </a>
+    <a
+      href="/tag/test/3"
+    >
+      3
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Pagination should have render. 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+    data-testid="pagination"
+  >
+    <a
+      href="/"
+    >
+      1
+    </a>
+    <a
+      href="/2"
+    >
+      2
+    </a>
+    <a
+      href="/3"
+    >
+      3
+    </a>
+  </div>
+</DocumentFragment>
+`;

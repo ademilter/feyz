@@ -11,7 +11,7 @@ function News({ totalData, className, tag }) {
   const Router = useRouter();
 
   return (
-    <div className={cn(styles.pagination, className)}>
+    <div className={cn(styles.pagination, className)} data-testid="pagination">
       {tag ? (
         <Link href={`/tag/[${tag}]`} as={`/tag/${tag}`}>
           <a className={cn({[styles.active]: Router.asPath === `/tag/${tag}`})}>1</a>
