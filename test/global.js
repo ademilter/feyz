@@ -1,3 +1,7 @@
+import MockDate from 'mockdate'
+
+MockDate.set('2020-06-23')
+
 const data = require('./data.json')
 
 process.env.PER_PAGE = 10
