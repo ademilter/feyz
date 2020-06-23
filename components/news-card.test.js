@@ -8,7 +8,7 @@ const filter = (array) =>
   })
 
 describe('NewsCard', () => {
-  test('should have render.', () => {
+  test('should render correctly.', () => {
     const mockData = filter(global.data.records)
     const article = mockData.filter((e) => !e.fields.tags.includes('Alıntı'))[0]
     const { asFragment, container } = render(
@@ -42,7 +42,7 @@ describe('NewsCard', () => {
     }
   })
 
-  test('should have render with "Alıntı" tag.', () => {
+  test('should render correctly with "Alıntı" tag.', () => {
     const mockData = filter(global.data.records)
     const article = mockData.filter((e) => e.fields.tags.includes('Alıntı'))[0]
     const { asFragment, container } = render(

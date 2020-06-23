@@ -8,7 +8,7 @@ const filter = (array) =>
   })
 
 describe('News', () => {
-  test('should have render.', () => {
+  test('should render correctly.', () => {
     const mockData = filter(global.data.records)
     const { asFragment } = render(<News data={mockData} />)
 

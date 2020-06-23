@@ -3,14 +3,14 @@ import '@testing-library/jest-dom/extend-expect'
 import Pagination from './pagination'
 
 describe('Pagination', () => {
-  test('should have render.', () => {
+  test('should render correctly.', () => {
     const { asFragment } = render(<Pagination totalData={30} />)
 
     expect(asFragment()).toMatchSnapshot()
     expect(screen.queryByTestId('pagination').childElementCount).toBe(3)
   })
 
-  test('should have render with tag.', () => {
+  test('should render correctly with tag.', () => {
     const { asFragment } = render(<Pagination totalData={30} tag="test" />)
 
     expect(asFragment()).toMatchSnapshot()

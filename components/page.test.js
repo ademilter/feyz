@@ -3,7 +3,7 @@ import Page from './page'
 import getData from '../utils/get-data'
 
 describe('Page', () => {
-  test('should have render.', async () => {
+  test('should render correctly.', async () => {
     const { data, totalData } = await getData()
 
     const { asFragment } = render(

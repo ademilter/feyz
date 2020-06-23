@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NewsCard should have render with "Alıntı" tag. 1`] = `
+exports[`NewsCard should render correctly with "Alıntı" tag. 1`] = `
 <DocumentFragment>
   <article
     class=""
@@ -70,7 +70,7 @@ exports[`NewsCard should have render with "Alıntı" tag. 1`] = `
 </DocumentFragment>
 `;
 
-exports[`NewsCard should have render. 1`] = `
+exports[`NewsCard should render correctly. 1`] = `
 <DocumentFragment>
   <article
     class=""
