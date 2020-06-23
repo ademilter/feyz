@@ -6,3 +6,5 @@ out
 public/sw.js
 public/workbox-*
 .env
+coverage
+.DS_Store
