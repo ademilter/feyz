@@ -54,6 +54,7 @@ function NewsCard({
   className
 }) {
   const isQuote = tags.find((tag) => tag === 'Alıntı')
+  const isTweet = tags.find((tag) => tag === 'Tweet')
   const photo = image ? image[0].thumbnails?.large || image[0] : null
 
   if (isQuote)
@@ -68,6 +69,15 @@ function NewsCard({
           url={url}
           author={author}
         />
+      </article>
+    )
+
+  if (isTweet)
+    return (
+      <article className={cn(styles.card, className)}>
+        <blockquote className="twitter-tweet">
+          <a href={url} />
+        </blockquote>
       </article>
     )
 
