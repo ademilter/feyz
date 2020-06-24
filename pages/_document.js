@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import React from 'react'
+import SiteConfig from '../site.config'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -20,17 +21,17 @@ class MyDocument extends Document {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <meta name="description" content="Kafa açan içerikler" />
+          <meta name="description" content={SiteConfig.description} />
 
-          <meta property="og:url" content="https://feyz.li" />
+          <meta property="og:url" content={SiteConfig.siteUrl} />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Feyz" />
-          <meta property="og:description" content="Kafa açan içerikler" />
+          <meta property="og:title" content={SiteConfig.title} />
+          <meta property="og:description" content={SiteConfig.description} />
 
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:url" content="https://feyz.li" />
-          <meta name="twitter:title" content="Feyz" />
-          <meta name="twitter:description" content="Kafa açan içerikler" />
+          <meta name="twitter:url" content={SiteConfig.siteUrl} />
+          <meta name="twitter:title" content={SiteConfig.title} />
+          <meta name="twitter:description" content={SiteConfig.description} />
 
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#000000" />
@@ -39,13 +40,13 @@ class MyDocument extends Document {
             sizes="180x180"
             href="/icons/apple-touch-icon.png"
           />
-          <meta name="application-name" content="Feyz" />
+          <meta name="application-name" content={SiteConfig.title} />
+          <meta name="apple-mobile-web-app-title" content={SiteConfig.title} />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="default"
           />
-          <meta name="apple-mobile-web-app-title" content="Feyz" />
 
           <link
             rel="icon"
