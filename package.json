@@ -5,9 +5,13 @@
     "dev": "next",
     "build": "NODE_ENV=production next build && next export",
     "start": "next start",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:e2e:run": "npm-run-all --parallel --race dev cypress:run",
+    "test:e2e": "npm-run-all --parallel --race dev cypress:open"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -19,12 +23,15 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
     "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.3.0",
     "babel-jest": "^26.0.1",
+    "cypress": "^4.9.0",
     "jest": "^26.0.1",
     "jest-transform-stub": "^2.0.0",
     "mockdate": "^3.0.2",
+    "npm-run-all": "^4.1.5",
     "postcss-custom-media": "^7.0.8",
     "postcss-nested": "^4.2.1",
     "prettier": "^2.0.5"
