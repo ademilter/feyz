@@ -1,14 +1,10 @@
 import getData from './get-data'
-
-const filter = (array) =>
-  array.filter((row) => {
-    return row.fields.createdDate && row.fields.public
-  })
+import { filterData } from '../test/utils'
 
 describe('getData', () => {
   test('should return first page of mockedData', async () => {
     const { allData, totalData, data } = await getData()
-    const mockData = filter(global.data.records)
+    const mockData = filterData(global.data.records)
 
     expect(allData).toMatchObject(mockData)
     expect(totalData).toBe(mockData.length)
@@ -18,7 +14,7 @@ describe('getData', () => {
 
   test('should return third page of mockedData', async () => {
     const { allData, totalData, data } = await getData(3)
-    const mockData = filter(global.data.records)
+    const mockData = filterData(global.data.records)
 
     expect(totalData).toBe(mockData.length)
     expect(allData).toMatchObject(mockData)
@@ -31,7 +27,7 @@ describe('getData', () => {
   test('should return filtered array of first page of mockedData', async () => {
     const tag = { slug: 'frontend', title: 'Frontend' }
     const { allData, totalData, data } = await getData(1, tag.slug)
-    const mockData = filter(global.data.records).filter((row) =>
+    const mockData = filterData(global.data.records).filter((row) =>
       row.fields.tags.find((t) => t === tag.title)
     )
 
