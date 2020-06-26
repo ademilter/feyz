@@ -1,15 +1,11 @@
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import NewsCard from './news-card'
-
-const filter = (array) =>
-  array.filter((row) => {
-    return row.fields.createdDate && row.fields.public
-  })
+import { filterData } from '../test/utils'
 
 describe('NewsCard', () => {
   test('should render correctly.', () => {
-    const mockData = filter(global.data.records)
+    const mockData = filterData(global.data.records)
     const article = mockData.filter((e) => !e.fields.tags.includes('Alıntı'))[0]
     const { asFragment, container } = render(
       <NewsCard id={article.id} {...article.fields} />
@@ -43,7 +39,7 @@ describe('NewsCard', () => {
   })
 
   test('should render correctly with "Alıntı" tag.', () => {
-    const mockData = filter(global.data.records)
+    const mockData = filterData(global.data.records)
     const article = mockData.filter((e) => e.fields.tags.includes('Alıntı'))[0]
     const { asFragment, container } = render(
       <NewsCard id={article.id} {...article.fields} />

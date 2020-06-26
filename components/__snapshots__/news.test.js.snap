@@ -8,6 +8,73 @@ exports[`News should render correctly. 1`] = `
   >
     <article
       class=""
+      data-testid="article-370706f5-2c62-482c-bc5f-58bf441c3d01"
+    >
+      <h2>
+        <a
+          class=""
+          href="http://alysha.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Unde sed at. Sed et velit consequatur sed.
+        </a>
+      </h2>
+      <footer>
+        <a
+          aria-hidden="true"
+          class=""
+          href="http://alysha.com"
+          rel="noopener noreferrer"
+          tabindex="-1"
+          target="_blank"
+        >
+          11 months ago
+        </a>
+        , 
+        <a
+          class=""
+          href="https://twitter.com/Blaise_Streich"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Blaise_Streich
+        </a>
+        , 
+        <a
+          href="/tag/yazilim"
+        >
+          Yazılım
+        </a>
+        , 
+        <a
+          href="/tag/turkce-kaynak"
+        >
+          Türkçe Kaynak
+        </a>
+        , 
+        <a
+          href="/tag/alinti"
+        >
+          Alıntı
+        </a>
+        , 
+        <a
+          href="/tag/yazi"
+        >
+          Blog Yazısı
+        </a>
+        , 
+        <a
+          href="/tag/podcast"
+        >
+          Podcast
+        </a>
+      </footer>
+    </article>
+    <article
+      class=""
+      data-testid="article-c51305b1-f1de-460a-b265-922b2e2f4d8e"
     >
       <figure>
         <a
@@ -20,7 +87,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Doloremque animi officia."
@@ -55,7 +122,7 @@ exports[`News should render correctly. 1`] = `
             tabindex="-1"
             target="_blank"
           >
-            3 months ago
+            4 months ago
           </a>
           , 
           <a
@@ -95,6 +162,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-adeb2b0d-4065-4363-9983-5e2f19e04c68"
     >
       <figure>
         <a
@@ -107,7 +175,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Id facilis sed alias nulla omnis sed est."
@@ -188,71 +256,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
-    >
-      <h2>
-        <a
-          class=""
-          href="http://alysha.com"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Unde sed at. Sed et velit consequatur sed.
-        </a>
-      </h2>
-      <footer>
-        <a
-          aria-hidden="true"
-          class=""
-          href="http://alysha.com"
-          rel="noopener noreferrer"
-          tabindex="-1"
-          target="_blank"
-        >
-          11 months ago
-        </a>
-        , 
-        <a
-          class=""
-          href="https://twitter.com/Blaise_Streich"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Blaise_Streich
-        </a>
-        , 
-        <a
-          href="/tag/yazilim"
-        >
-          Yazılım
-        </a>
-        , 
-        <a
-          href="/tag/turkce-kaynak"
-        >
-          Türkçe Kaynak
-        </a>
-        , 
-        <a
-          href="/tag/alinti"
-        >
-          Alıntı
-        </a>
-        , 
-        <a
-          href="/tag/yazi"
-        >
-          Blog Yazısı
-        </a>
-        , 
-        <a
-          href="/tag/podcast"
-        >
-          Podcast
-        </a>
-      </footer>
-    </article>
-    <article
-      class=""
+      data-testid="article-ebdb0dd9-4fb9-4c4c-9284-2c810a9a3c5c"
     >
       <h2>
         <a
@@ -318,6 +322,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-d1fa1cf3-e579-4f66-bc3a-c316b10bce1d"
     >
       <h2>
         <a
@@ -383,6 +388,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-45e16dcc-e5b4-4f35-9eda-a0565c1c6f9f"
     >
       <figure>
         <a
@@ -395,7 +401,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Vel magni rerum ipsam facere velit voluptas doloribus doloremque."
@@ -458,6 +464,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-92b85961-b9e4-40e2-bf63-9ad144151e13"
     >
       <h2>
         <a
@@ -517,6 +524,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-21cd33e4-523e-45cb-b13a-d87dc8b0af5b"
     >
       <figure>
         <a
@@ -529,7 +537,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Dicta sunt sit rerum."
@@ -592,6 +600,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-f1441602-ae07-4d64-b130-efa54ee0285d"
     >
       <figure>
         <a
@@ -604,7 +613,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Et vel et repellendus voluptatem molestiae explicabo quos minus."
@@ -685,6 +694,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-b5b13343-09fd-4021-9ffc-d19b4376fd1e"
     >
       <figure>
         <a
@@ -697,7 +707,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Molestiae et rerum laudantium aspernatur voluptatibus quas deleniti."
@@ -766,6 +776,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-2a79d847-8d59-4db8-83b6-6050562f4258"
     >
       <h2>
         <a
@@ -825,6 +836,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-348b37fe-1062-42e9-a53b-3226eea407c4"
     >
       <h2>
         <a
@@ -896,6 +908,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-cca167b4-7077-4850-a9d8-3ef0dc8faf98"
     >
       <h2>
         <a
@@ -967,6 +980,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-b95a42d9-792d-4599-a2b4-0888c6dd55df"
     >
       <h2>
         <a
@@ -1020,6 +1034,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-df8b7211-61aa-4384-94c1-913fdcb06044"
     >
       <figure>
         <a
@@ -1032,7 +1047,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Asperiores unde quidem nesciunt voluptatum consequatur."
@@ -1119,6 +1134,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-ee707ba5-6404-4e3f-892d-69b249ac736d"
     >
       <h2>
         <a
@@ -1190,6 +1206,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-6c142508-f0fd-46f5-8513-c644a48472c7"
     >
       <figure>
         <a
@@ -1202,7 +1219,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Maxime laudantium facilis qui possimus ea enim et aperiam."
@@ -1277,6 +1294,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-d3c95f84-0113-4681-a6df-4d7d7adbad2d"
     >
       <h2>
         <a
@@ -1336,6 +1354,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-fe14d77b-9123-4276-8025-29e0c5a3b199"
     >
       <figure>
         <a
@@ -1348,7 +1367,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Illo porro voluptatem rem qui."
@@ -1405,6 +1424,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-af1333d6-0232-438d-9202-58ba658e7eba"
     >
       <figure>
         <a
@@ -1417,7 +1437,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Et earum accusantium tempore."
@@ -1474,6 +1494,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-7b7de0f1-7d9e-4182-85f1-a498da6753e4"
     >
       <figure>
         <a
@@ -1486,7 +1507,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Sed voluptas porro ut facilis."
@@ -1561,6 +1582,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-1fb03772-7228-44d4-9596-6f8902f26146"
     >
       <figure>
         <a
@@ -1573,7 +1595,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Voluptatem eos molestias quo ea id et."
@@ -1642,6 +1664,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-2d6d6c07-b2e6-4450-8964-0cd588624622"
     >
       <figure>
         <a
@@ -1654,7 +1677,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Suscipit explicabo nihil laudantium quasi id ratione itaque et omnis."
@@ -1705,6 +1728,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-ef3bd432-7e04-432f-83ef-d84110066cdb"
     >
       <figure>
         <a
@@ -1717,7 +1741,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Cupiditate soluta consectetur aspernatur molestiae labore quos expedita doloribus voluptas."
@@ -1792,6 +1816,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-cf369aa0-fd09-4828-b3ce-77bd7a635cbf"
     >
       <figure>
         <a
@@ -1804,7 +1829,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Earum qui soluta eligendi eos."
@@ -1861,6 +1886,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-cda3062f-c384-466e-b957-e56723f9c490"
     >
       <h2>
         <a
@@ -1926,6 +1952,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-1db77e8d-02e6-4da1-b25c-43857f25c166"
     >
       <figure>
         <a
@@ -1938,7 +1965,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Eos quos vel eum."
@@ -1995,6 +2022,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-19089081-48b1-4d52-9c6c-a9792a7f375d"
     >
       <h2>
         <a
@@ -2066,6 +2094,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-f0fd7d2f-0808-4e7c-9b4f-414eedc3b537"
     >
       <figure>
         <a
@@ -2078,7 +2107,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Voluptatem dolores vel est laudantium inventore."
@@ -2135,6 +2164,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-7eaa1e78-83d8-475b-b149-d400507d2bbb"
     >
       <figure>
         <a
@@ -2147,7 +2177,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Ad numquam occaecati."
@@ -2222,6 +2252,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-ba202537-8be0-4b71-bb13-aa4bd0bf3a76"
     >
       <figure>
         <a
@@ -2234,7 +2265,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Nulla sequi unde."
@@ -2291,6 +2322,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-363d9bb8-7c71-4d06-8f53-3f4f0cf3e4b0"
     >
       <figure>
         <a
@@ -2303,7 +2335,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Maiores ut ut laboriosam adipisci quidem aliquam magni eaque."
@@ -2384,6 +2416,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-ef8a329a-0187-47d6-bda1-48398831a13c"
     >
       <figure>
         <a
@@ -2396,7 +2429,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Non quia qui voluptatem nihil officiis."
@@ -2477,6 +2510,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-62e89b86-ea25-4844-8df5-496f762ee090"
     >
       <figure>
         <a
@@ -2489,7 +2523,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Mollitia debitis corporis sint commodi magnam ut laborum dolores aut."
@@ -2546,6 +2580,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-32708f5d-27a2-457c-a140-2b8e163cad8c"
     >
       <figure>
         <a
@@ -2558,7 +2593,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Eveniet quis aliquam eum aut."
@@ -2621,6 +2656,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-ec447b1a-a8ef-4c3f-8372-15ff2b8460c6"
     >
       <figure>
         <a
@@ -2633,7 +2669,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Provident reiciendis et dolorem eos omnis accusamus voluptas."
@@ -2702,6 +2738,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-93683316-91b1-4fbe-bea8-93dfe1c9250a"
     >
       <h2>
         <a
@@ -2785,6 +2822,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-be097ef2-1e12-4c09-b795-46ebbd657c16"
     >
       <figure>
         <a
@@ -2797,7 +2835,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Perferendis consectetur quia similique id delectus deleniti."
@@ -2878,6 +2916,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-69ae35f4-98ab-41e9-b256-8553167ee76d"
     >
       <h2>
         <a
@@ -2961,6 +3000,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-2d46fcb5-bb87-42e0-9e7e-1fef6118bfa1"
     >
       <h2>
         <a
@@ -3032,6 +3072,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-c91ce187-a17a-4681-bf1f-1d379f84159c"
     >
       <figure>
         <a
@@ -3044,7 +3085,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Aut quo commodi velit qui alias sed quia occaecati."
@@ -3125,6 +3166,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-3d30effb-a830-49ac-8d0d-55bf6bb907fd"
     >
       <h2>
         <a
@@ -3190,6 +3232,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-de442b3d-b0e3-4d16-a22d-e18a19611380"
     >
       <figure>
         <a
@@ -3202,7 +3245,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Fuga magnam nesciunt aut labore sit laboriosam voluptatem quas."
@@ -3271,6 +3314,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-79074d89-74a2-4b2c-a59d-44a45a129cfc"
     >
       <figure>
         <a
@@ -3283,7 +3327,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Maiores et ut eos nihil quo nesciunt autem."
@@ -3358,6 +3402,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-99a784b8-267a-423b-85d9-92cba44da108"
     >
       <figure>
         <a
@@ -3370,7 +3415,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Qui aliquam et rerum rerum tempora nam molestiae odit."
@@ -3439,6 +3484,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-41106521-0021-41b0-bd99-b47a18876b78"
     >
       <figure>
         <a
@@ -3451,7 +3497,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Quibusdam eos omnis delectus saepe quis."
@@ -3502,6 +3548,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-c2688159-2e8a-4299-bed7-19922cf5a134"
     >
       <h2>
         <a
@@ -3561,6 +3608,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-aa660408-3932-436d-8f2e-0b72102d6a12"
     >
       <figure>
         <a
@@ -3573,7 +3621,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Odit modi non eos iste rerum adipisci voluptatem."
@@ -3654,6 +3702,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-83948fb1-e3ea-4f2e-ad72-a1486f030a23"
     >
       <h2>
         <a
@@ -3719,6 +3768,7 @@ exports[`News should render correctly. 1`] = `
     </article>
     <article
       class=""
+      data-testid="article-5bde244f-a08d-4c46-b8c0-301d56f5cfb9"
     >
       <figure>
         <a
@@ -3731,7 +3781,7 @@ exports[`News should render correctly. 1`] = `
         >
           <picture>
             <source
-              srcset="http://lorempixel.com/913/512"
+              srcset="https://via.placeholder.com/913x512"
             />
             <img
               alt="Minima sunt recusandae repudiandae ratione."
