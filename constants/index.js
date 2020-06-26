@@ -11,3 +11,7 @@ export const PATHS = [
   { slug: 'tweet', title: 'Tweet' },
   { slug: 'alinti', title: 'Alıntı' }
 ]
+
+const apiData = require('./data.json')
+
+export const API_DATA = apiData
