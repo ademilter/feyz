@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should have children. 1`] = `
+<DocumentFragment>
+  <h1
+    class=""
+  >
+    <a
+      href="/"
+    >
+      &lt;span&gt;Test Message&lt;/span&gt;
+    </a>
+  </h1>
+</DocumentFragment>
+`;

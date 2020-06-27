@@ -44,6 +44,7 @@ function Footer({ url, createdDate, tags, author }) {
 }
 
 function NewsCard({
+  id,
   url,
   title,
   createdDate,
@@ -59,7 +60,10 @@ function NewsCard({
 
   if (isQuote)
     return (
-      <article className={cn(styles.card, className)}>
+      <article
+        data-testid={`article-${id}`}
+        className={cn(styles.card, className)}
+      >
         <h2 className={styles.quote}>
           <A href={url}>{summary}</A>
         </h2>
@@ -74,7 +78,10 @@ function NewsCard({
 
   if (isTweet)
     return (
-      <article className={cn(styles.card, className)}>
+      <article
+        className={cn(styles.card, className)}
+        data-testid={`article-${id}`}
+      >
         <blockquote className="twitter-tweet">
           <a href={url} />
         </blockquote>
@@ -82,7 +89,10 @@ function NewsCard({
     )
 
   return (
-    <article className={cn(styles.card, photo && styles.withPhoto, className)}>
+    <article
+      data-testid={`article-${id}`}
+      className={cn(styles.card, photo && styles.withPhoto, className)}
+    >
       {/* PHOTO */}
       {photo && (
         <figure className={styles.image}>

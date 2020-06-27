@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should have children. 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    &lt;span&gt;Test Message&lt;/span&gt;
+  </div>
+</DocumentFragment>
+`;

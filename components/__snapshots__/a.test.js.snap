@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A should have children. 1`] = `
+<DocumentFragment>
+  <a
+    class=""
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    &lt;span&gt;Test Message&lt;/span&gt;
+  </a>
+</DocumentFragment>
+`;

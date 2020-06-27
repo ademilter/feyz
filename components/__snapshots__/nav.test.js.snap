@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should have children. 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+    data-testid="nav"
+  >
+    <a
+      href="/tag/tasarim"
+    >
+      Tasarım
+    </a>
+    <a
+      href="/tag/frontend"
+    >
+      Frontend
+    </a>
+    <a
+      href="/tag/yazilim"
+    >
+      Yazılım
+    </a>
+    <a
+      href="/tag/turkce-kaynak"
+    >
+      Türkçe Kaynak
+    </a>
+    <a
+      href="/tag/video"
+    >
+      Video
+    </a>
+    <a
+      href="/tag/podcast"
+    >
+      Podcast
+    </a>
+    <a
+      href="/tag/yazi"
+    >
+      Blog Yazısı
+    </a>
+    <a
+      href="/tag/arac"
+    >
+      Araç
+    </a>
+    <a
+      href="/tag/etkinlik"
+    >
+      Etkinlik
+    </a>
+    <a
+      href="/tag/tweet"
+    >
+      Tweet
+    </a>
+    <a
+      href="/tag/alinti"
+    >
+      Alıntı
+    </a>
+    <a
+      class=""
+      href="https://www.patreon.com/ademilter"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Destek Ol
+    </a>
+  </div>
+</DocumentFragment>
+`;
