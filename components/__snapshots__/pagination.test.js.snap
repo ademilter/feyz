@@ -7,16 +7,19 @@ exports[`Pagination should render correctly with tag. 1`] = `
     data-testid="pagination"
   >
     <a
+      class=""
       href="/tag/test"
     >
       1
     </a>
     <a
+      class=""
       href="/tag/test/2"
     >
       2
     </a>
     <a
+      class=""
       href="/tag/test/3"
     >
       3
@@ -32,16 +35,19 @@ exports[`Pagination should render correctly. 1`] = `
     data-testid="pagination"
   >
     <a
+      class="undefined"
       href="/"
     >
       1
     </a>
     <a
+      class=""
       href="/2"
     >
       2
     </a>
     <a
+      class=""
       href="/3"
     >
       3

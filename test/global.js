@@ -13,3 +13,11 @@ global.fetch = jest.fn().mockImplementation(() =>
     json: () => Promise.resolve(API_DATA)
   })
 )
+
+jest.mock('next/router', () => ({
+  useRouter: () => {
+    return {
+      asPath: '/'
+    }
+  }
+}))

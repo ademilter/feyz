@@ -61,7 +61,7 @@ function NewsCard({
   if (isQuote)
     return (
       <article
-      data-testid={`article-${id}`}
+        data-testid={`article-${id}`}
         className={cn(styles.card, className)}
       >
         <h2 className={styles.quote}>
@@ -78,7 +78,10 @@ function NewsCard({
 
   if (isTweet)
     return (
-      <article className={cn(styles.card, className)}>
+      <article
+        className={cn(styles.card, className)}
+        data-testid={`article-${id}`}
+      >
         <blockquote className="twitter-tweet">
           <a href={url} />
         </blockquote>

@@ -64,6 +64,11 @@ exports[`Page should render correctly. 1`] = `
         Etkinlik
       </a>
       <a
+        href="/tag/tweet"
+      >
+        Tweet
+      </a>
+      <a
         href="/tag/alinti"
       >
         Alıntı
@@ -234,6 +239,18 @@ exports[`Page should render correctly. 1`] = `
             </a>
           </footer>
         </div>
+      </article>
+      <article
+        class=""
+        data-testid="article-fdsfsr"
+      >
+        <blockquote
+          class="twitter-tweet"
+        >
+          <a
+            href="https://twitter.com/AltanTanriverdi/status/1274922730333376512"
+          />
+        </blockquote>
       </article>
       <article
         class=""
@@ -599,82 +616,6 @@ exports[`Page should render correctly. 1`] = `
       </article>
       <article
         class=""
-        data-testid="article-21cd33e4-523e-45cb-b13a-d87dc8b0af5b"
-      >
-        <figure>
-          <a
-            aria-hidden="true"
-            class=""
-            href="http://thalia.net"
-            rel="noopener noreferrer"
-            tabindex="-1"
-            target="_blank"
-          >
-            <picture>
-              <source
-                srcset="https://via.placeholder.com/913x512"
-              />
-              <img
-                alt="Dicta sunt sit rerum."
-                loading="lazy"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQYV2P4DwABAQEAWk1v8QAAAABJRU5ErkJggg=="
-              />
-            </picture>
-          </a>
-        </figure>
-        <div>
-          <header>
-            <h2>
-              <a
-                class=""
-                href="http://thalia.net"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Dicta sunt sit rerum.
-              </a>
-            </h2>
-            <p>
-              Et aut vel provident voluptas itaque ad possimus eos quam. Nobis quas reiciendis consectetur suscipit quis quasi deleniti esse eos. Sunt nulla adipisci culpa tempore. Est et consequatur et magnam. Beatae atque et modi voluptatem. Omnis quia rerum nobis qui officia.
-            </p>
-          </header>
-          <footer>
-            <a
-              aria-hidden="true"
-              class=""
-              href="http://thalia.net"
-              rel="noopener noreferrer"
-              tabindex="-1"
-              target="_blank"
-            >
-              4 months ago
-            </a>
-            , 
-            <a
-              class=""
-              href="https://twitter.com/Gunner94"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Gunner94
-            </a>
-            , 
-            <a
-              href="/tag/arac"
-            >
-              Araç
-            </a>
-            , 
-            <a
-              href="/tag/yazilim"
-            >
-              Yazılım
-            </a>
-          </footer>
-        </div>
-      </article>
-      <article
-        class=""
         data-testid="article-f1441602-ae07-4d64-b130-efa54ee0285d"
       >
         <figure>
@@ -855,26 +796,31 @@ exports[`Page should render correctly. 1`] = `
       data-testid="pagination"
     >
       <a
+        class="undefined"
         href="/"
       >
         1
       </a>
       <a
+        class=""
         href="/2"
       >
         2
       </a>
       <a
+        class=""
         href="/3"
       >
         3
       </a>
       <a
+        class=""
         href="/4"
       >
         4
       </a>
       <a
+        class=""
         href="/5"
       >
         5
