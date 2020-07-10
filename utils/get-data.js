@@ -26,7 +26,7 @@ export default async function getData(activePage = 1, tag) {
 
   let filteredData = _data.map((item) => ({
     ...item,
-    slug: slugify(item.fields.title, { lower: true })
+    slug: slugify(item.fields.title, { lower: true, strict: true })
   }))
 
   console.log(filteredData)
