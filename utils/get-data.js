@@ -2,9 +2,9 @@ import { PATHS } from '../constants'
 import { sleep } from './helper'
 import slugify from 'slugify'
 
-export default async function getData(activePage = 1, tag) {
-  let _data = []
+let _data = []
 
+export default async function getData(activePage = 1, tag) {
   // TODO: offset eklenecek yoksa 99'dan sonra patlar
   async function allData(pageOffset) {
     const response = await fetch(encodeURI(process.env.API_URL))
@@ -22,14 +22,14 @@ export default async function getData(activePage = 1, tag) {
     }
   }
 
-  await allData()
+  if (!_data.length) {
+    await allData()
+  }
 
   let filteredData = _data.map((item) => ({
     ...item,
     slug: slugify(item.fields.title, { lower: true, strict: true })
   }))
-
-  console.log(filteredData)
 
   if (tag) {
     const path = PATHS.find((path) => path.slug === tag)
