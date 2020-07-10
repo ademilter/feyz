@@ -4,9 +4,8 @@ import cn from 'classnames'
 import { PATHS } from '../constants'
 
 import styles from './nav.module.css'
-import A from './a'
 
-function Nav({ location, className }) {
+function Nav({ className }) {
   return (
     <div className={cn(styles.nav, className)}>
       {PATHS.map((path) => {
@@ -16,7 +15,6 @@ function Nav({ location, className }) {
           </Link>
         )
       })}
-      <A href="https://www.patreon.com/ademilter">Destek Ol</A>
     </div>
   )
 }

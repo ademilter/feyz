@@ -1,0 +1,25 @@
+.sponsors {
+  border-top: 2px solid #eee;
+  padding: 2.2rem;
+  background-color: rgba(255, 255, 0, 0.16);
+  text-align: center;
+}
+
+.logos {
+  margin: 1rem 0;
+}
+
+.sponsor {
+  padding: 1rem;
+
+  img {
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+  }
+}
+
+.link {
+  opacity: 0.5;
+  text-decoration: underline;
+}

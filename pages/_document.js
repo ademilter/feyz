@@ -66,11 +66,11 @@ class MyDocument extends Document {
               __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-EEJXF1ZGSX');`
             }}
           />
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charSet="utf-8"
-          />
+          {/*<script*/}
+          {/*  async*/}
+          {/*  src="https://platform.twitter.com/widgets.js"*/}
+          {/*  charSet="utf-8"*/}
+          {/*/>*/}
         </Head>
         <body>
           <Main />

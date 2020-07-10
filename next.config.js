@@ -6,7 +6,7 @@ const isDev = process.env.NODE_ENV !== 'production'
 const nextConfig = {
   exportTrailingSlash: true,
   env: {
-    PER_PAGE: isDev ? 1 : 10,
+    PER_PAGE: isDev ? 3 : 10,
     API_URL: isDev
       ? 'http://localhost:3000/api/dummy-news'
       : [

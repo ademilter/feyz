@@ -2,19 +2,6 @@ export default (req, res) => {
   res.json({
     records: [
       {
-        id: 'fdsfsr',
-        fields: {
-          url: 'https://twitter.com/AltanTanriverdi/status/1274922730333376512',
-          title: '-',
-          summary: '-',
-          tags: ['Tweet'],
-          public: true,
-          createdDate: '2020-06-10T23:43:00.000Z',
-          author: 'ademilter'
-        },
-        createdTime: '2020-06-10T23:43:45.000Z'
-      },
-      {
         id: 'recleI0QyzNEbBz4u',
         fields: {
           url: 'https://twitter.com/Kpaxs',

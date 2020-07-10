@@ -13,8 +13,7 @@ function Page({ pathname, data, totalData = 1, tag }) {
     <Layout>
       <Title />
       <Nav className={styles.nav} location={pathname} />
-
-      <News className={styles.news} data={data} totalData={totalData} />
+      <News className={styles.news} data={data} />
 
       {totalData > process.env.PER_PAGE && (
         <Pagination

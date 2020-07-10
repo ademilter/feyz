@@ -8,6 +8,5 @@ export const PATHS = [
   { slug: 'yazi', title: 'Blog Yazısı' },
   { slug: 'arac', title: 'Araç' },
   { slug: 'etkinlik', title: 'Etkinlik' },
-  { slug: 'tweet', title: 'Tweet' },
   { slug: 'alinti', title: 'Alıntı' }
 ]
