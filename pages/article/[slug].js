@@ -1,5 +1,6 @@
 import React from 'react'
 import getData from '../../utils/get-data'
+import Head from 'next/head'
 
 import Layout from '../../components/layout'
 import Title from '../../components/title'
@@ -10,6 +11,11 @@ import NewsCard from '../../components/news-card'
 function ArticlePage({ article }) {
   return (
     <Layout>
+      <Head>
+        <title>{article.fields.title}</title>
+        <meta name="description" content={article.fields.summary} />
+      </Head>
+
       <Title />
       <Nav className={styles.nav} />
 
