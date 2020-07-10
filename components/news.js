@@ -13,7 +13,7 @@ function News({ data, className }) {
         return (
           <React.Fragment key={article.id}>
             {index === 1 && <Sposnors />}
-            <NewsCard id={article.id} {...article.fields} />
+            <NewsCard id={article.id} slug={article.slug} {...article.fields} />
           </React.Fragment>
         )
       })}

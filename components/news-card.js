@@ -8,17 +8,14 @@ import styles from './news-card.module.css'
 import Link from 'next/link'
 import A from './a'
 
-function Footer({ url, createdDate, tags, author }) {
+function Footer({ slug, createdDate, tags, author }) {
   return (
     <footer className={styles.footer}>
-      <A
-        href={url}
-        className={styles.datetime}
-        aria-hidden="true"
-        tabIndex="-1"
-      >
-        {DateTime.fromISO(createdDate).toRelative()}
-      </A>
+      <Link href="/article/[slug]" as={`/article/${slug}`}>
+        <a className={styles.datetime}>
+          {DateTime.fromISO(createdDate).toRelative()}
+        </a>
+      </Link>
       {author && (
         <>
           {', '}
@@ -44,6 +41,7 @@ function Footer({ url, createdDate, tags, author }) {
 }
 
 function NewsCard({
+  slug,
   url,
   title,
   createdDate,
@@ -54,30 +52,20 @@ function NewsCard({
   className
 }) {
   const isQuote = tags.find((tag) => tag === 'Alıntı')
-  const isTweet = tags.find((tag) => tag === 'Tweet')
   const photo = image ? image[0].thumbnails?.large || image[0] : null
 
   if (isQuote)
     return (
       <article className={cn(styles.card, className)}>
         <h2 className={styles.quote}>
-          <A href={url}>{summary}</A>
+          <A href={url}>{title}</A>
         </h2>
         <Footer
           createdDate={createdDate}
           tags={tags}
-          url={url}
+          slug={slug}
           author={author}
         />
-      </article>
-    )
-
-  if (isTweet)
-    return (
-      <article className={cn(styles.card, className)}>
-        <blockquote className="twitter-tweet">
-          <a href={url} />
-        </blockquote>
       </article>
     )
 
@@ -112,7 +100,7 @@ function NewsCard({
         <Footer
           createdDate={createdDate}
           tags={tags}
-          url={url}
+          slug={slug}
           author={author}
         />
       </div>

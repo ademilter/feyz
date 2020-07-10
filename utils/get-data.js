@@ -1,5 +1,6 @@
 import { PATHS } from '../constants'
 import { sleep } from './helper'
+import slugify from 'slugify'
 
 export default async function getData(activePage = 1, tag) {
   let _data = []
@@ -23,7 +24,12 @@ export default async function getData(activePage = 1, tag) {
 
   await allData()
 
-  let filteredData = [..._data]
+  let filteredData = _data.map((item) => ({
+    ...item,
+    slug: slugify(item.fields.title, { lower: true })
+  }))
+
+  console.log(filteredData)
 
   if (tag) {
     const path = PATHS.find((path) => path.slug === tag)
@@ -35,6 +41,9 @@ export default async function getData(activePage = 1, tag) {
   return {
     allData: filteredData,
     totalData: filteredData.length,
-    data: [...filteredData].splice((activePage - 1) * process.env.PER_PAGE, process.env.PER_PAGE)
+    data: [...filteredData].splice(
+      (activePage - 1) * process.env.PER_PAGE,
+      process.env.PER_PAGE
+    )
   }
 }

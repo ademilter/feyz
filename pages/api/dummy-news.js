@@ -5,9 +5,9 @@ export default (req, res) => {
         id: 'recleI0QyzNEbBz4u',
         fields: {
           url: 'https://twitter.com/Kpaxs',
-          title: '-',
-          summary:
+          title:
             'If you want extraordinary results, you need to narrow your focus.',
+          summary: '-',
           tags: ['Frontend', 'Alıntı'],
           public: true,
           createdDate: '2020-06-10T23:43:00.000Z',
