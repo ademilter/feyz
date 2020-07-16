@@ -52,7 +52,7 @@ async function getPosts(activePage = 1) {
 
 const main = async () => {
   const feed = new RSS({
-    title: 'feyz.li',
+    title: 'Feyz',
     site_url: 'https://feyz.li',
     feed_url: 'https://feyz.li/feed.xml',
     language: 'tr',
