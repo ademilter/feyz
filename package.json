@@ -17,8 +17,7 @@
     "next-pwa": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "slugify": "^1.4.4",
-    "unfetch": "^4.1.0"
+    "slugify": "^1.4.4"
   },
   "devDependencies": {
     "postcss-custom-media": "^7.0.8",

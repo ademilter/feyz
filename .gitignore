@@ -5,4 +5,5 @@ public/ui
 out
 public/sw.js
 public/workbox-*
+public/feed.xml
 .env
