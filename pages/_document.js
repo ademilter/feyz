@@ -33,6 +33,13 @@ class MyDocument extends Document {
           <meta name="twitter:title" content={SiteConfig.title} />
           <meta name="twitter:description" content={SiteConfig.description} />
 
+          <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="RSS Feed for feyz.li"
+            href="/feed.xml"
+          />
+
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#000000" />
           <link

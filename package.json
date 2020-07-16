@@ -3,22 +3,27 @@
   "version": "1.0.2",
   "scripts": {
     "dev": "next",
-    "build": "NODE_ENV=production next build && next export",
-    "start": "next start"
+    "build": "yarn rss && NODE_ENV=production next build && next export",
+    "start": "next start",
+    "rss": "node rss"
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.0.0",
     "luxon": "^1.24.1",
     "next": "^9.4.4",
     "next-compose-plugins": "^2.2.0",
     "next-pwa": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "slugify": "^1.4.4"
+    "slugify": "^1.4.4",
+    "unfetch": "^4.1.0"
   },
   "devDependencies": {
     "postcss-custom-media": "^7.0.8",
     "postcss-nested": "^4.2.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "rss": "^1.2.2"
   }
 }
