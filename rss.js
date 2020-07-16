@@ -55,7 +55,8 @@ const main = async () => {
     title: 'feyz.li',
     site_url: 'https://feyz.li',
     feed_url: 'https://feyz.li/feed.xml',
-    language: 'tr'
+    language: 'tr',
+    image_url: 'https://feyz.li/icons/apple-touch-icon.png'
   })
 
   await getPosts()
@@ -66,9 +67,6 @@ const main = async () => {
     feed.item({
       title: post.fields.title,
       description: post.fields.summary,
-      feed_url: 'https://feyz.li/rss.xml',
-      site_url: 'https://feyz.li',
-      image_url: 'https://feyz.li/icons/apple-touch-icon.png',
       date: new Date(post.fields.createdDate),
       author: post.fields.author,
       url,
