@@ -64,14 +64,21 @@ const main = async () => {
   DATA.forEach((post) => {
     const url = `https://feyz.li/article/${post.slug}`
 
-    feed.item({
+    const item = {
       title: post.fields.title,
       description: post.fields.summary,
       date: new Date(post.fields.createdDate),
       author: post.fields.author,
       url,
       guid: url
-    })
+    }
+
+    if (post.fields.image) {
+      const { type, size, thumbnails } = post.fields.image[0]
+      item.enclosure = { url: thumbnails.large.url, size, type }
+    }
+
+    feed.item(item)
   })
 
   const rss = feed.xml({ indent: true })
