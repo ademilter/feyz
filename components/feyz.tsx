@@ -1,11 +1,13 @@
 import Balancer from 'react-wrap-balancer'
 import Image from 'next/image'
 import { AirtableRecord } from '@/types/airtable'
+import Link from 'next/link'
+import { DateTime } from 'luxon'
 
 export default function Feyz({ record }: { record: AirtableRecord }) {
-  const isAlinti = record.tags.includes('Alıntı')
+  const isQuote = record.tags.includes('Alıntı')
 
-  if (isAlinti) {
+  if (isQuote) {
     return (
       <article className="flex gap-6 py-10">
         <h2 className="font-display text-4xl font-semibold">
@@ -26,6 +28,20 @@ export default function Feyz({ record }: { record: AirtableRecord }) {
           </a>
         </h2>
         <p className="mt-2">{record.summary}</p>
+
+        <footer className="">
+          {/* TODO: slug */}
+          <Link href="/feyz/[slug]" as={`/feyz/${record.title}`} className="">
+            {DateTime.fromISO(record.createdDate).toRelative()}
+          </Link>
+          <Link
+            href="/author/[slug]"
+            as={`/author/${record.author}`}
+            className=""
+          >
+            {record.author}
+          </Link>
+        </footer>
       </div>
 
       {record.image && (
