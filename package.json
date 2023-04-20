@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.0",
-    "airtable": "^0.11.6",
     "clsx": "^1.2.1",
     "luxon": "^3.3.0",
     "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-wrap-balancer": "^0.4.0",
+    "slugify": "^1.6.6",
     "tailwind-merge": "^1.12.0"
   },
   "devDependencies": {

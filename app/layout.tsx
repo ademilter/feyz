@@ -46,10 +46,6 @@ const interDisplay = localFont({
       weight: '400'
     },
     {
-      path: './fonts/inter/Inter-DisplaySemiBold.woff2',
-      weight: '600'
-    },
-    {
       path: './fonts/inter/Inter-DisplayBold.woff2',
       weight: '700'
     },

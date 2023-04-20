@@ -1,41 +1,49 @@
-import Airtable from 'airtable'
 import { AirtableRecord } from '@/types/airtable'
 import { DATA_PER_PAGE } from '@/utils/const'
 
-const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
-  'appeqvrnUnbvHVDmH'
-)
-
-const table = base('content')
-
-export const getRecords = async ({
+export async function getRecords({
+  maxRecords,
   pageSize = DATA_PER_PAGE,
-  offset = 0
+  offset
 }: {
+  maxRecords?: number
   pageSize?: number
-  offset?: number
-}): Promise<AirtableRecord[]> => {
-  return new Promise((resolve, reject) => {
-    table
-      .select({
-        cellFormat: 'json',
-        view: 'Grid view',
-        pageSize,
-        offset
-      })
-      .eachPage(
-        function page(records) {
-          const data = records.map((record) => {
-            const { id, fields } = record
-            return { id, ...fields }
-          }) as AirtableRecord[]
-          resolve(data)
-        },
-        function done(err) {
-          if (err) {
-            reject(err)
-          }
-        }
-      )
+  offset?: string
+}): Promise<AirtableRecord[]> {
+  const url = new URL(
+    `/v0/appeqvrnUnbvHVDmH/content`,
+    'https://api.airtable.com'
+  )
+  url.searchParams.append('pageSize', pageSize.toString())
+  offset && url.searchParams.append('offset', offset)
+  maxRecords && url.searchParams.append('maxRecords', maxRecords.toString())
+  url.searchParams.append('view', 'Grid view')
+  url.searchParams.append('sort[0][field]', 'createdDate')
+  url.searchParams.append('sort[0][direction]', 'desc')
+  url.searchParams.append('fields[]', 'url')
+  url.searchParams.append('fields[]', 'image')
+  url.searchParams.append('fields[]', 'title')
+  url.searchParams.append('fields[]', 'summary')
+  url.searchParams.append('fields[]', 'tags')
+  url.searchParams.append('fields[]', 'createdDate')
+  url.searchParams.append('filterByFormula', 'draft=FALSE()')
+
+  const res = await fetch(url.toString(), {
+    method: 'GET',
+    headers: {
+      Authorization: `Bearer ${process.env.AIRTABLE_API_KEY}`
+    }
   })
+  const data = await res.json()
+
+  if (data?.offset) {
+    const records = await getRecords({
+      offset: data.offset
+    })
+    return [...data.records, ...records]
+  } else {
+    return data.records
+  }
 }
+
+// slugify(this.title, { lower: true, strict: true })

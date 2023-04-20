@@ -25,7 +25,6 @@ function AppNavItem({
   ...props
 }: LinkProps & HTMLAttributes<HTMLAnchorElement>) {
   const pathname = usePathname()
-
   const isActive = pathname === props.href
 
   return (
@@ -33,7 +32,7 @@ function AppNavItem({
       className={cx(
         'font-display text-xl opacity-60',
         'hover:underline hover:opacity-100',
-        isActive && 'font-semibold underline opacity-100',
+        isActive && 'font-bold underline opacity-100',
         className
       )}
       {...props}

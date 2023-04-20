@@ -1,16 +1,10 @@
-import Container from '@/components/container'
-import { getRecords } from '@/utils/airtable'
+import { FeyzItem, getRecords } from '@/utils/airtable'
+import Page from '@/components/page'
+import { DATA_PER_PAGE } from '@/utils/const'
 import { AirtableRecord } from '@/types/airtable'
-import Feyz from '@/components/feyz'
 
 export default async function Home() {
-  const data: AirtableRecord[] = await getRecords({})
+  const data: AirtableRecord[] = await getRecords({ maxRecords: DATA_PER_PAGE })
 
-  return (
-    <div className="divide-y border-y">
-      {data.map((record) => (
-        <Feyz key={record.id} record={record} />
-      ))}
-    </div>
-  )
+  return <Page data={data} />
 }
