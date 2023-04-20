@@ -11,7 +11,7 @@ export default function Container({
   ...props
 }: IContainer) {
   return (
-    <div className={cx('mx-auto max-w-screen-lg px-6', className)} {...props}>
+    <div className={cx('mx-auto max-w-screen-md px-6', className)} {...props}>
       {children}
     </div>
   )

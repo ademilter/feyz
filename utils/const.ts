@@ -1,12 +1,9 @@
-export const Const = [
-  { slug: 'tasarim', title: 'Tasarım' },
-  { slug: 'frontend', title: 'Frontend' },
-  { slug: 'yazilim', title: 'Yazılım' },
-  { slug: 'turkce-kaynak', title: 'Türkçe Kaynak' },
-  { slug: 'video', title: 'Video' },
-  { slug: 'podcast', title: 'Podcast' },
-  { slug: 'yazi', title: 'Blog Yazısı' },
-  { slug: 'arac', title: 'Araç' },
-  { slug: 'etkinlik', title: 'Etkinlik' },
-  { slug: 'alinti', title: 'Alıntı' }
+export const TAGS = [
+  { slug: '/tag/tasarim', title: 'Tasarım' },
+  { slug: '/tag/frontend', title: 'Frontend' },
+  { slug: '/tag/yazilim', title: 'Yazılım' },
+  { slug: '/tag/etkinlik', title: 'Etkinlik' },
+  { slug: '/tag/video', title: 'Video' },
+  { slug: '/tag/blog', title: 'Blog' },
+  { slug: '/tag/alinti', title: 'Alıntı' }
 ]
