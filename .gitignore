@@ -2,8 +2,11 @@
 node_modules
 .idea
 public/ui
-out
-public/sw.js
-public/workbox-*
-public/feed.xml
+public/sw*
+public/workbox*
+.DS_Store
+*.local
+
+.vercel
+
 .env
