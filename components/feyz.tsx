@@ -20,7 +20,7 @@ export default function Feyz({ record }: { record: AirtableRecord }) {
   }
 
   return (
-    <article className="flex gap-6 py-8">
+    <article className="flex gap-6 py-10">
       <div>
         <h2 className="font-display text-3xl font-bold">
           <a target="_blank" href={record.url}>
