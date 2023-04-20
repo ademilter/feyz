@@ -7,3 +7,5 @@ export const TAGS = [
   { slug: '/tag/blog', title: 'Blog' },
   { slug: '/tag/alinti', title: 'Alıntı' }
 ]
+
+export const DATA_PER_PAGE = 10

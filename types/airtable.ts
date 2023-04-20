@@ -1,4 +1,4 @@
-export interface Record {
+export interface AirtableRecord {
   id: string
   tags: string[]
   createdDate: string

@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation'
 
 export default function AppNav() {
   return (
-    <nav className="mt-8 flex flex-wrap gap-x-4 gap-y-1">
+    <nav className="mt-8 flex flex-wrap gap-x-3 gap-y-1">
       <AppNavItem href="/">Tümü</AppNavItem>
       {TAGS.map((tag) => (
         <AppNavItem href={tag.slug} key={tag.slug}>
@@ -31,8 +31,9 @@ function AppNavItem({
   return (
     <Link
       className={cx(
-        'font-display text-xl',
-        isActive && 'text-blue-500',
+        'font-display text-xl opacity-60',
+        'hover:underline hover:opacity-100',
+        isActive && 'font-semibold underline opacity-100',
         className
       )}
       {...props}

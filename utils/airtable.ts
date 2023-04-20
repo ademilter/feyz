@@ -1,5 +1,6 @@
 import Airtable from 'airtable'
-import { Record } from '@/types/airtable'
+import { AirtableRecord } from '@/types/airtable'
+import { DATA_PER_PAGE } from '@/utils/const'
 
 const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
   'appeqvrnUnbvHVDmH'
@@ -8,12 +9,12 @@ const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
 const table = base('content')
 
 export const getRecords = async ({
-  pageSize = 2,
+  pageSize = DATA_PER_PAGE,
   offset = 0
 }: {
   pageSize?: number
   offset?: number
-}): Promise<Record[]> => {
+}): Promise<AirtableRecord[]> => {
   return new Promise((resolve, reject) => {
     table
       .select({
@@ -27,7 +28,7 @@ export const getRecords = async ({
           const data = records.map((record) => {
             const { id, fields } = record
             return { id, ...fields }
-          }) as Record[]
+          }) as AirtableRecord[]
           resolve(data)
         },
         function done(err) {

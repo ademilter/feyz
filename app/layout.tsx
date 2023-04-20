@@ -8,6 +8,7 @@ import cx from '@/utils/cx'
 import AnalyticsWrapper from './analytics'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import Container from '@/components/container'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -16,12 +17,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={cx(
         inter.variable,
         interDisplay.variable,
-        'scroll-smooth antialiased'
+        'scroll-smooth text-zinc-900 antialiased'
       )}
     >
       <body>
         <Header />
-        <main>{children}</main>
+        <main>
+          <Container>{children}</Container>
+        </main>
         <Footer />
 
         <AnalyticsWrapper />
@@ -43,6 +46,14 @@ const interDisplay = localFont({
       weight: '400'
     },
     {
+      path: './fonts/inter/Inter-DisplaySemiBold.woff2',
+      weight: '600'
+    },
+    {
+      path: './fonts/inter/Inter-DisplayBold.woff2',
+      weight: '700'
+    },
+    {
       path: './fonts/inter/Inter-DisplayBlack.woff2',
       weight: '900'
     }
@@ -54,7 +65,7 @@ const description = 'Kafa açıcı içerikler'
 
 export const metadata: Metadata = {
   title: {
-    default: title,
+    default: `${title} - ${description}`,
     template: `%s | Feyz`
   },
   description,

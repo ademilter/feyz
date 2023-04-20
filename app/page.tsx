@@ -1,21 +1,16 @@
-import Link from 'next/link'
 import Container from '@/components/container'
+import { getRecords } from '@/utils/airtable'
+import { AirtableRecord } from '@/types/airtable'
+import Feyz from '@/components/feyz'
 
 export default async function Home() {
-  // const data: Record[] = await getRecords({})
+  const data: AirtableRecord[] = await getRecords({})
 
   return (
-    <>
-      <Container>
-        <div>
-          {/*{data.map((record) => (*/}
-          {/*  <div key={record.id}>*/}
-          {/*    <h1>{record.title}</h1>*/}
-          {/*    <p>{record.url}</p>*/}
-          {/*  </div>*/}
-          {/*))}*/}
-        </div>
-      </Container>
-    </>
+    <div className="divide-y border-y">
+      {data.map((record) => (
+        <Feyz key={record.id} record={record} />
+      ))}
+    </div>
   )
 }
