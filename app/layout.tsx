@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 const inter = Inter({
   variable: '--font-sans',
-  subsets: ['latin']
+  subsets: ['latin-ext']
 })
 
 const interDisplay = localFont({
