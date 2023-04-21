@@ -1,8 +1,14 @@
 import Feyz from '@/components/feyz'
-import { FeyzItem } from '@/utils/airtable'
 import { AirtableRecord } from '@/types/airtable'
+import Pagination from '@/components/pagination'
 
-export default function Page({ data = [] }: { data: AirtableRecord[] }) {
+export default function Page({
+  data = [],
+  totalData
+}: {
+  data: AirtableRecord[]
+  totalData: number
+}) {
   return (
     <div>
       <div className="divide-y border-y">
@@ -10,6 +16,8 @@ export default function Page({ data = [] }: { data: AirtableRecord[] }) {
           <Feyz key={feyz.id} feyz={feyz} />
         ))}
       </div>
+
+      <Pagination totalData={totalData} />
     </div>
   )
 }

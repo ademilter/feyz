@@ -30,9 +30,9 @@ function AppNavItem({
   return (
     <Link
       className={cx(
-        'font-display text-xl opacity-60',
+        'font-display text-xl opacity-50',
         'hover:underline hover:opacity-100',
-        isActive && 'font-bold underline opacity-100',
+        isActive && 'underline opacity-100',
         className
       )}
       {...props}
