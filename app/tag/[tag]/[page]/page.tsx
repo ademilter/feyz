@@ -32,5 +32,12 @@ export default async function Tag({
     params.page * DATA_PER_PAGE
   )
 
-  return <Page rawData={dataFilterByTag} data={filterData} tag={params.tag} />
+  return (
+    <Page
+      rawData={data}
+      data={filterData}
+      totalData={dataFilterByTag.length}
+      tag={params.tag}
+    />
+  )
 }

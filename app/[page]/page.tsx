@@ -18,5 +18,5 @@ export default async function Home({ params }: { params: { page: number } }) {
     params.page * DATA_PER_PAGE
   )
 
-  return <Page rawData={data} data={filterData} />
+  return <Page rawData={data} totalData={data.length} data={filterData} />
 }

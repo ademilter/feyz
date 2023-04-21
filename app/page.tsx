@@ -7,5 +7,5 @@ export default async function Home() {
   const data: AirtableRecord[] = await getRecords({})
   const filterData = data.slice(0, DATA_PER_PAGE)
 
-  return <Page rawData={data} data={filterData} />
+  return <Page rawData={data} totalData={data.length} data={filterData} />
 }

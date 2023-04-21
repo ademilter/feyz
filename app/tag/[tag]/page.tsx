@@ -17,5 +17,12 @@ export default async function Tag({ params }: { params: { tag: string } }) {
   })
   const filterData = dataFilterByTag.slice(0, DATA_PER_PAGE)
 
-  return <Page rawData={dataFilterByTag} data={filterData} tag={params.tag} />
+  return (
+    <Page
+      rawData={data}
+      data={filterData}
+      totalData={dataFilterByTag.length}
+      tag={params.tag}
+    />
+  )
 }
