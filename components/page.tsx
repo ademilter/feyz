@@ -6,10 +6,12 @@ import React from 'react'
 
 export default function Page({
   rawData = [],
-  data = []
+  data = [],
+  tag
 }: {
   rawData: AirtableRecord[]
   data: AirtableRecord[]
+  tag?: string
 }) {
   const flattenTags = rawData.flatMap((item) => item.fields.tags)
   const tags = [...new Set(flattenTags)]
@@ -24,7 +26,7 @@ export default function Page({
         ))}
       </div>
 
-      <Pagination totalData={rawData.length} />
+      <Pagination totalData={rawData.length} tag={tag} />
     </>
   )
 }

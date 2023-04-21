@@ -3,6 +3,13 @@ import Page from '@/components/page'
 import { DATA_PER_PAGE } from '@/utils/const'
 import { AirtableRecord } from '@/types/airtable'
 
+export async function generateStaticParams() {
+  const data: AirtableRecord[] = await getRecords({})
+  const flattenTags = data.flatMap((item) => item.fields.tags)
+  const uniqTags = [...new Set(flattenTags)]
+  return uniqTags.map((tag) => ({ tag }))
+}
+
 export default async function Tag({ params }: { params: { tag: string } }) {
   const data: AirtableRecord[] = await getRecords({})
   const dataFilterByTag = data.filter((item) => {
@@ -10,5 +17,5 @@ export default async function Tag({ params }: { params: { tag: string } }) {
   })
   const filterData = dataFilterByTag.slice(0, DATA_PER_PAGE)
 
-  return <Page rawData={data} data={filterData} />
+  return <Page rawData={dataFilterByTag} data={filterData} tag={params.tag} />
 }
