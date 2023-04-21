@@ -7,7 +7,7 @@ import { AirtableRecord } from '@/types/airtable'
 export default function Feyz({ feyz }: { feyz: AirtableRecord }) {
   const { tags, createdDate, image, summary, title, url } = feyz.fields
 
-  const isQuote = Array.isArray(tags) ? tags.includes('Alıntı') : false
+  const isQuote = Array.isArray(tags) ? tags.includes('quote') : false
 
   if (isQuote) {
     return (

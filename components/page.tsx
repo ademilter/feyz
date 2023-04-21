@@ -1,23 +1,30 @@
 import Feyz from '@/components/feyz'
 import { AirtableRecord } from '@/types/airtable'
 import Pagination from '@/components/pagination'
+import Nav from '@/components/nav'
+import React from 'react'
 
 export default function Page({
-  data = [],
-  totalData
+  rawData = [],
+  data = []
 }: {
+  rawData: AirtableRecord[]
   data: AirtableRecord[]
-  totalData: number
 }) {
+  const flattenTags = rawData.flatMap((item) => item.fields.tags)
+  const tags = [...new Set(flattenTags)]
+
   return (
-    <div>
-      <div className="divide-y border-y">
+    <>
+      <Nav tags={tags} />
+
+      <div className="mt-8 divide-y border-y">
         {data.map((feyz: AirtableRecord) => (
           <Feyz key={feyz.id} feyz={feyz} />
         ))}
       </div>
 
-      <Pagination totalData={totalData} />
-    </div>
+      <Pagination totalData={rawData.length} />
+    </>
   )
 }
