@@ -14,19 +14,20 @@ export async function getRecords({
     `/v0/appeqvrnUnbvHVDmH/content`,
     'https://api.airtable.com'
   )
-  url.searchParams.append('pageSize', pageSize.toString())
   offset && url.searchParams.append('offset', offset)
   maxRecords && url.searchParams.append('maxRecords', maxRecords.toString())
+  url.searchParams.append('pageSize', pageSize.toString())
   url.searchParams.append('view', 'Grid view')
   url.searchParams.append('sort[0][field]', 'createdDate')
   url.searchParams.append('sort[0][direction]', 'desc')
-  url.searchParams.append('fields[]', 'url')
-  url.searchParams.append('fields[]', 'image')
-  url.searchParams.append('fields[]', 'title')
-  url.searchParams.append('fields[]', 'summary')
-  url.searchParams.append('fields[]', 'tags')
-  url.searchParams.append('fields[]', 'createdDate')
   url.searchParams.append('filterByFormula', 'draft=FALSE()')
+  // url.searchParams.append('fields[]', 'url')
+  // url.searchParams.append('fields[]', 'url')
+  // url.searchParams.append('fields[]', 'image')
+  // url.searchParams.append('fields[]', 'title')
+  // url.searchParams.append('fields[]', 'summary')
+  // url.searchParams.append('fields[]', 'tags')
+  // url.searchParams.append('fields[]', 'createdDate')
 
   const res = await fetch(url.toString(), {
     method: 'GET',
@@ -45,5 +46,3 @@ export async function getRecords({
     return data.records
   }
 }
-
-// slugify(this.title, { lower: true, strict: true })

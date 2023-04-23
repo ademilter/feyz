@@ -10,3 +10,4 @@ public/workbox*
 .vercel
 
 .env
+/out

@@ -4,6 +4,7 @@ export interface AirtableRecord {
   fields: {
     tags: string[]
     createdDate: string
+    source: string
     title: string
     summary: string
     url: string
