@@ -8,6 +8,8 @@ import slugify from 'slugify'
 export default function Feyz({ feyz }: { feyz: AirtableRecord }) {
   const { tags, createdDate, image, summary, title, url, source } = feyz.fields
 
+  const cover = image && image[0]
+
   const isQuote = Array.isArray(tags) ? tags.includes('quote') : false
   const sourceUrl = source && new URL(source)
   const slug = slugify(title, { lower: true, strict: true })
@@ -24,7 +26,7 @@ export default function Feyz({ feyz }: { feyz: AirtableRecord }) {
         ) : (
           <>
             <h2 className="font-display text-3xl font-bold leading-snug">
-              <a target="_blank" href={url}>
+              <a target="_blank" href={url} className="visited:text-zinc-600">
                 <Balancer>{title}</Balancer>
               </a>
             </h2>
@@ -48,13 +50,13 @@ export default function Feyz({ feyz }: { feyz: AirtableRecord }) {
         </footer>
       </div>
 
-      {image && (
+      {cover && (
         <div className="w-1/3 shrink-0 pt-1">
           <Image
-            src={image[0].url}
+            src={cover.url}
             alt={title}
-            width={image[0].width}
-            height={image[0].height}
+            width={cover?.width || 400}
+            height={cover?.height || 400}
             className="rounded-lg"
           />
         </div>
