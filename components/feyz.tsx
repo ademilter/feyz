@@ -18,7 +18,7 @@ export default function Feyz({ feyz }: { feyz: AirtableRecord }) {
     <article className="flex gap-8 py-10">
       <div className="grow">
         {isQuote ? (
-          <h2 className="font-display text-5xl leading-tight">
+          <h2 className="font-display text-5xl leading-[1.2]">
             <a target="_blank" href={url}>
               <Balancer>{title}</Balancer>
             </a>
